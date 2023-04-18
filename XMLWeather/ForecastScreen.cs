@@ -19,7 +19,10 @@ namespace XMLWeather
 
         public void displayForecast()
         {
-
+            date1.Text = Form1.days[1].date;
+            max1.Text = Convert.ToDouble(Form1.days[1].tempHigh).ToString("#");
+            min1.Text = Convert.ToDouble(Form1.days[1].tempLow).ToString("#");
+            //max2.Text = Convert.ToDouble(Form1.days[1.temp])
         }
 
         private void label3_Click(object sender, EventArgs e)
