@@ -19,6 +19,7 @@ namespace XMLWeather
             minOutput.Text = Convert.ToDouble(Form1.days[1].tempLow).ToString("#");
             maxOutput.Text = Convert.ToDouble(Form1.days[2].tempHigh).ToString("#");
             dateLabel.Text = Form1.days[0].date;
+            conditionLabel.Text = Form1.days[0].condition;
             //minOutput.Text = Form1.days[1].tempLow;
             //maxOutput.Text = Convert.ToDouble(Form1.days[1].tempHigh).ToString("#");
 

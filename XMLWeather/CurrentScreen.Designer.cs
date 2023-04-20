@@ -34,7 +34,7 @@
             this.minOutput = new System.Windows.Forms.Label();
             this.minLabel = new System.Windows.Forms.Label();
             this.currentOutput = new System.Windows.Forms.Label();
-            this.tempLabel = new System.Windows.Forms.Label();
+            this.conditionLabel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.forecastLabel = new System.Windows.Forms.Label();
             this.searchLabel = new System.Windows.Forms.Label();
@@ -55,11 +55,13 @@
             // 
             // maxOutput
             // 
-            this.maxOutput.BackColor = System.Drawing.Color.White;
-            this.maxOutput.Location = new System.Drawing.Point(156, 437);
+            this.maxOutput.BackColor = System.Drawing.Color.Transparent;
+            this.maxOutput.Font = new System.Drawing.Font("Dubai", 11F);
+            this.maxOutput.ForeColor = System.Drawing.Color.White;
+            this.maxOutput.Location = new System.Drawing.Point(210, 281);
             this.maxOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.maxOutput.Name = "maxOutput";
-            this.maxOutput.Size = new System.Drawing.Size(151, 16);
+            this.maxOutput.Size = new System.Drawing.Size(42, 28);
             this.maxOutput.TabIndex = 32;
             // 
             // maxLabel
@@ -75,12 +77,15 @@
             // 
             // minOutput
             // 
-            this.minOutput.BackColor = System.Drawing.Color.White;
-            this.minOutput.Location = new System.Drawing.Point(156, 407);
+            this.minOutput.BackColor = System.Drawing.Color.Transparent;
+            this.minOutput.Font = new System.Drawing.Font("Dubai", 11F);
+            this.minOutput.ForeColor = System.Drawing.Color.White;
+            this.minOutput.Location = new System.Drawing.Point(153, 281);
             this.minOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.minOutput.Name = "minOutput";
-            this.minOutput.Size = new System.Drawing.Size(151, 16);
+            this.minOutput.Size = new System.Drawing.Size(45, 28);
             this.minOutput.TabIndex = 30;
+            this.minOutput.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // minLabel
             // 
@@ -98,7 +103,7 @@
             this.currentOutput.BackColor = System.Drawing.Color.Transparent;
             this.currentOutput.Font = new System.Drawing.Font("Dubai", 16F, System.Drawing.FontStyle.Bold);
             this.currentOutput.ForeColor = System.Drawing.Color.White;
-            this.currentOutput.Location = new System.Drawing.Point(151, 198);
+            this.currentOutput.Location = new System.Drawing.Point(164, 198);
             this.currentOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.currentOutput.Name = "currentOutput";
             this.currentOutput.Size = new System.Drawing.Size(65, 52);
@@ -106,16 +111,17 @@
             this.currentOutput.Text = "label";
             this.currentOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // tempLabel
+            // conditionLabel
             // 
-            this.tempLabel.AutoSize = true;
-            this.tempLabel.ForeColor = System.Drawing.Color.White;
-            this.tempLabel.Location = new System.Drawing.Point(28, 376);
-            this.tempLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.tempLabel.Name = "tempLabel";
-            this.tempLabel.Size = new System.Drawing.Size(130, 16);
-            this.tempLabel.TabIndex = 26;
-            this.tempLabel.Text = "Current Temperature";
+            this.conditionLabel.AutoSize = true;
+            this.conditionLabel.Font = new System.Drawing.Font("Dubai", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.conditionLabel.ForeColor = System.Drawing.Color.White;
+            this.conditionLabel.Location = new System.Drawing.Point(22, 361);
+            this.conditionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.conditionLabel.Name = "conditionLabel";
+            this.conditionLabel.Size = new System.Drawing.Size(89, 29);
+            this.conditionLabel.TabIndex = 26;
+            this.conditionLabel.Text = "Conditions";
             // 
             // label3
             // 
@@ -184,7 +190,7 @@
             this.Controls.Add(this.minOutput);
             this.Controls.Add(this.minLabel);
             this.Controls.Add(this.currentOutput);
-            this.Controls.Add(this.tempLabel);
+            this.Controls.Add(this.conditionLabel);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CurrentScreen";
             this.Size = new System.Drawing.Size(400, 492);
@@ -200,7 +206,7 @@
         private System.Windows.Forms.Label minOutput;
         private System.Windows.Forms.Label minLabel;
         private System.Windows.Forms.Label currentOutput;
-        private System.Windows.Forms.Label tempLabel;
+        private System.Windows.Forms.Label conditionLabel;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label forecastLabel;
         private System.Windows.Forms.Label searchLabel;
