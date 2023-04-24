@@ -162,7 +162,7 @@
             this.conditionLabel.Location = new System.Drawing.Point(18, 364);
             this.conditionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.conditionLabel.Name = "conditionLabel";
-            this.conditionLabel.Size = new System.Drawing.Size(154, 28);
+            this.conditionLabel.Size = new System.Drawing.Size(154, 70);
             this.conditionLabel.TabIndex = 46;
             this.conditionLabel.Text = "Conditions";
             // 

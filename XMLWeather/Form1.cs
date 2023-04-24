@@ -76,7 +76,7 @@ namespace XMLWeather
 
         private void ExtractIcons()
         {
-            XmlReader reader = XmlReader.Create("https://openweathermap.org/img/wn/01d.png");
+            //XmlReader reader = XmlReader.Create("https://openweathermap.org/img/wn/01d.png");
             
         }
     }
