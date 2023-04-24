@@ -23,6 +23,7 @@ namespace XMLWeather
 
             ExtractForecast();
             ExtractCurrent();
+            ExtractCondition();
             
             // open weather screen for todays weather
             CurrentScreen cs = new CurrentScreen();
@@ -73,6 +74,9 @@ namespace XMLWeather
 
         }
 
-
+        private void ExtractCondition()
+        {
+           // XmlReader reader = XmlReader.Create("");
+        }
     }
 }

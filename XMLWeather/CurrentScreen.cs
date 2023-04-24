@@ -26,8 +26,6 @@ namespace XMLWeather
 
         }
 
-
-
         private void forecastLabel_Click(object sender, EventArgs e)
         {
             Form f = this.FindForm();
@@ -35,6 +33,15 @@ namespace XMLWeather
 
             ForecastScreen fs = new ForecastScreen();
             f.Controls.Add(fs);
+        }
+
+        private void searchLabel_Click(object sender, EventArgs e)
+        {
+            Form f = this.FindForm();
+            f.Controls.Remove(this);
+
+            SearchScreen ss = new SearchScreen();
+            f.Controls.Add(ss);
         }
     }
 }

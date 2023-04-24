@@ -30,15 +30,14 @@
         {
             this.cityOutput = new System.Windows.Forms.Label();
             this.maxOutput = new System.Windows.Forms.Label();
-            this.maxLabel = new System.Windows.Forms.Label();
             this.minOutput = new System.Windows.Forms.Label();
-            this.minLabel = new System.Windows.Forms.Label();
             this.currentOutput = new System.Windows.Forms.Label();
-            this.conditionLabel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.forecastLabel = new System.Windows.Forms.Label();
             this.searchLabel = new System.Windows.Forms.Label();
             this.dateLabel = new System.Windows.Forms.Label();
+            this.iconLabel = new System.Windows.Forms.Label();
+            this.conditionLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // cityOutput
@@ -64,17 +63,6 @@
             this.maxOutput.Size = new System.Drawing.Size(42, 28);
             this.maxOutput.TabIndex = 32;
             // 
-            // maxLabel
-            // 
-            this.maxLabel.AutoSize = true;
-            this.maxLabel.ForeColor = System.Drawing.Color.White;
-            this.maxLabel.Location = new System.Drawing.Point(28, 437);
-            this.maxLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.maxLabel.Name = "maxLabel";
-            this.maxLabel.Size = new System.Drawing.Size(32, 16);
-            this.maxLabel.TabIndex = 31;
-            this.maxLabel.Text = "max";
-            // 
             // minOutput
             // 
             this.minOutput.BackColor = System.Drawing.Color.Transparent;
@@ -86,17 +74,6 @@
             this.minOutput.Size = new System.Drawing.Size(45, 28);
             this.minOutput.TabIndex = 30;
             this.minOutput.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // minLabel
-            // 
-            this.minLabel.AutoSize = true;
-            this.minLabel.ForeColor = System.Drawing.Color.White;
-            this.minLabel.Location = new System.Drawing.Point(28, 407);
-            this.minLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.minLabel.Name = "minLabel";
-            this.minLabel.Size = new System.Drawing.Size(28, 16);
-            this.minLabel.TabIndex = 29;
-            this.minLabel.Text = "min";
             // 
             // currentOutput
             // 
@@ -110,18 +87,6 @@
             this.currentOutput.TabIndex = 28;
             this.currentOutput.Text = "label";
             this.currentOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // conditionLabel
-            // 
-            this.conditionLabel.AutoSize = true;
-            this.conditionLabel.Font = new System.Drawing.Font("Dubai", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.conditionLabel.ForeColor = System.Drawing.Color.White;
-            this.conditionLabel.Location = new System.Drawing.Point(22, 361);
-            this.conditionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.conditionLabel.Name = "conditionLabel";
-            this.conditionLabel.Size = new System.Drawing.Size(89, 29);
-            this.conditionLabel.TabIndex = 26;
-            this.conditionLabel.Text = "Conditions";
             // 
             // label3
             // 
@@ -162,6 +127,7 @@
             this.searchLabel.TabIndex = 43;
             this.searchLabel.Text = "Search";
             this.searchLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.searchLabel.Click += new System.EventHandler(this.searchLabel_Click);
             // 
             // dateLabel
             // 
@@ -175,41 +141,63 @@
             this.dateLabel.TabIndex = 44;
             this.dateLabel.Text = "Date";
             // 
+            // iconLabel
+            // 
+            this.iconLabel.BackColor = System.Drawing.Color.Transparent;
+            this.iconLabel.Font = new System.Drawing.Font("Dubai", 16F, System.Drawing.FontStyle.Bold);
+            this.iconLabel.ForeColor = System.Drawing.Color.White;
+            this.iconLabel.Location = new System.Drawing.Point(73, 198);
+            this.iconLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.iconLabel.Name = "iconLabel";
+            this.iconLabel.Size = new System.Drawing.Size(65, 52);
+            this.iconLabel.TabIndex = 45;
+            this.iconLabel.Text = "icon";
+            this.iconLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // conditionLabel
+            // 
+            this.conditionLabel.BackColor = System.Drawing.Color.Transparent;
+            this.conditionLabel.Font = new System.Drawing.Font("Dubai", 10.2F);
+            this.conditionLabel.ForeColor = System.Drawing.Color.White;
+            this.conditionLabel.Location = new System.Drawing.Point(18, 364);
+            this.conditionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.conditionLabel.Name = "conditionLabel";
+            this.conditionLabel.Size = new System.Drawing.Size(154, 28);
+            this.conditionLabel.TabIndex = 46;
+            this.conditionLabel.Text = "Conditions";
+            // 
             // CurrentScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
+            this.BackColor = System.Drawing.Color.CadetBlue;
+            this.Controls.Add(this.conditionLabel);
+            this.Controls.Add(this.iconLabel);
             this.Controls.Add(this.dateLabel);
             this.Controls.Add(this.searchLabel);
             this.Controls.Add(this.forecastLabel);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.cityOutput);
             this.Controls.Add(this.maxOutput);
-            this.Controls.Add(this.maxLabel);
             this.Controls.Add(this.minOutput);
-            this.Controls.Add(this.minLabel);
             this.Controls.Add(this.currentOutput);
-            this.Controls.Add(this.conditionLabel);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CurrentScreen";
             this.Size = new System.Drawing.Size(400, 492);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
         private System.Windows.Forms.Label cityOutput;
         private System.Windows.Forms.Label maxOutput;
-        private System.Windows.Forms.Label maxLabel;
         private System.Windows.Forms.Label minOutput;
-        private System.Windows.Forms.Label minLabel;
         private System.Windows.Forms.Label currentOutput;
-        private System.Windows.Forms.Label conditionLabel;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label forecastLabel;
         private System.Windows.Forms.Label searchLabel;
         private System.Windows.Forms.Label dateLabel;
+        private System.Windows.Forms.Label iconLabel;
+        private System.Windows.Forms.Label conditionLabel;
     }
 }
