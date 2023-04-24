@@ -23,7 +23,7 @@ namespace XMLWeather
 
             ExtractForecast();
             ExtractCurrent();
-            ExtractCondition();
+            ExtractIcons();
             
             // open weather screen for todays weather
             CurrentScreen cs = new CurrentScreen();
@@ -74,9 +74,10 @@ namespace XMLWeather
 
         }
 
-        private void ExtractCondition()
+        private void ExtractIcons()
         {
-           // XmlReader reader = XmlReader.Create("");
+            XmlReader reader = XmlReader.Create("https://openweathermap.org/img/wn/01d.png");
+            
         }
     }
 }
