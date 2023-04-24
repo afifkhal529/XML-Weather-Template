@@ -23,7 +23,6 @@ namespace XMLWeather
             //minOutput.Text = Form1.days[1].tempLow;
             //maxOutput.Text = Convert.ToDouble(Form1.days[1].tempHigh).ToString("#");
 
-
         }
 
         private void forecastLabel_Click(object sender, EventArgs e)

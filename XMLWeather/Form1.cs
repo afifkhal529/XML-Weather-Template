@@ -77,6 +77,13 @@ namespace XMLWeather
         private void ExtractIcons()
         {
             //XmlReader reader = XmlReader.Create("https://openweathermap.org/img/wn/01d.png");
+            //while (reader.Read())
+            //{
+            //    Day d = new Day();
+            //    reader.ReadToFollowing("condition");
+            //    d.date = reader.GetAttribute("da");
+
+            //}
             
         }
     }
