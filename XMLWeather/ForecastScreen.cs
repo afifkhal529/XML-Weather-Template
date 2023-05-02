@@ -19,15 +19,26 @@ namespace XMLWeather
 
         public void displayForecast()
         {
-            date1.Text = Form1.days[1].date;
-            date2.Text = Form1.days[2].date;
-            date3.Text = Form1.days[3].date;
+            day1.Text = Form1.days[1].date;
+            day2.Text = Form1.days[2].date;
+            day3.Text = Form1.days[3].date;
+            day4.Text = Form1.days[4].date;
+            day5.Text = Form1.days[5].date;
+
             max1.Text = Convert.ToDouble(Form1.days[1].tempHigh).ToString("#");
             min1.Text = Convert.ToDouble(Form1.days[1].tempLow).ToString("#");
+
             max2.Text = Convert.ToDouble(Form1.days[2].tempHigh).ToString("#");
             min2.Text = Convert.ToDouble(Form1.days[2].tempLow).ToString("#");
+
             max3.Text = Convert.ToDouble(Form1.days[3].tempHigh).ToString("#");
             min3.Text = Convert.ToDouble(Form1.days[3].tempHigh).ToString("#");
+
+            max4.Text = Convert.ToDouble(Form1.days[4].tempHigh).ToString("#");
+            min4.Text = Convert.ToDouble(Form1.days[4].tempHigh).ToString("#");
+
+            max5.Text = Convert.ToDouble(Form1.days[5].tempHigh).ToString("#");
+            min5.Text = Convert.ToDouble(Form1.days[5].tempHigh).ToString("#");
             //max2.Text = Convert.ToDouble(Form1.days[1.temp])
         }
 
