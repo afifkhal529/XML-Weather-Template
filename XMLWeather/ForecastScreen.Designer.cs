@@ -40,22 +40,22 @@
             this.day3 = new System.Windows.Forms.Label();
             this.max3 = new System.Windows.Forms.Label();
             this.min3 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.icon1 = new System.Windows.Forms.PictureBox();
+            this.icon2 = new System.Windows.Forms.PictureBox();
+            this.icon3 = new System.Windows.Forms.PictureBox();
+            this.icon4 = new System.Windows.Forms.PictureBox();
+            this.icon5 = new System.Windows.Forms.PictureBox();
             this.day4 = new System.Windows.Forms.Label();
             this.day5 = new System.Windows.Forms.Label();
             this.max4 = new System.Windows.Forms.Label();
             this.max5 = new System.Windows.Forms.Label();
             this.min5 = new System.Windows.Forms.Label();
             this.min4 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icon1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icon2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icon3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icon4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icon5)).BeginInit();
             this.SuspendLayout();
             // 
             // min1
@@ -187,50 +187,50 @@
             this.min3.Size = new System.Drawing.Size(22, 13);
             this.min3.TabIndex = 75;
             // 
-            // pictureBox3
+            // icon1
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(12, 132);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(58, 41);
-            this.pictureBox3.TabIndex = 78;
-            this.pictureBox3.TabStop = false;
+            this.icon1.Location = new System.Drawing.Point(12, 132);
+            this.icon1.Margin = new System.Windows.Forms.Padding(2);
+            this.icon1.Name = "icon1";
+            this.icon1.Size = new System.Drawing.Size(58, 41);
+            this.icon1.TabIndex = 78;
+            this.icon1.TabStop = false;
             // 
-            // pictureBox4
+            // icon2
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(12, 178);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(58, 41);
-            this.pictureBox4.TabIndex = 79;
-            this.pictureBox4.TabStop = false;
+            this.icon2.Location = new System.Drawing.Point(12, 178);
+            this.icon2.Margin = new System.Windows.Forms.Padding(2);
+            this.icon2.Name = "icon2";
+            this.icon2.Size = new System.Drawing.Size(58, 41);
+            this.icon2.TabIndex = 79;
+            this.icon2.TabStop = false;
             // 
-            // pictureBox1
+            // icon3
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(12, 223);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(58, 41);
-            this.pictureBox1.TabIndex = 80;
-            this.pictureBox1.TabStop = false;
+            this.icon3.Location = new System.Drawing.Point(12, 223);
+            this.icon3.Margin = new System.Windows.Forms.Padding(2);
+            this.icon3.Name = "icon3";
+            this.icon3.Size = new System.Drawing.Size(58, 41);
+            this.icon3.TabIndex = 80;
+            this.icon3.TabStop = false;
             // 
-            // pictureBox2
+            // icon4
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(12, 269);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(58, 41);
-            this.pictureBox2.TabIndex = 81;
-            this.pictureBox2.TabStop = false;
+            this.icon4.Location = new System.Drawing.Point(12, 269);
+            this.icon4.Margin = new System.Windows.Forms.Padding(2);
+            this.icon4.Name = "icon4";
+            this.icon4.Size = new System.Drawing.Size(58, 41);
+            this.icon4.TabIndex = 81;
+            this.icon4.TabStop = false;
             // 
-            // pictureBox5
+            // icon5
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(12, 314);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(58, 41);
-            this.pictureBox5.TabIndex = 82;
-            this.pictureBox5.TabStop = false;
+            this.icon5.Location = new System.Drawing.Point(12, 314);
+            this.icon5.Margin = new System.Windows.Forms.Padding(2);
+            this.icon5.Name = "icon5";
+            this.icon5.Size = new System.Drawing.Size(58, 41);
+            this.icon5.TabIndex = 82;
+            this.icon5.TabStop = false;
             // 
             // day4
             // 
@@ -305,11 +305,11 @@
             this.Controls.Add(this.max4);
             this.Controls.Add(this.day5);
             this.Controls.Add(this.day4);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.icon5);
+            this.Controls.Add(this.icon4);
+            this.Controls.Add(this.icon3);
+            this.Controls.Add(this.icon2);
+            this.Controls.Add(this.icon1);
             this.Controls.Add(this.min3);
             this.Controls.Add(this.max3);
             this.Controls.Add(this.day3);
@@ -324,11 +324,11 @@
             this.Controls.Add(this.max1);
             this.Name = "ForecastScreen";
             this.Size = new System.Drawing.Size(300, 400);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icon1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icon2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icon3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icon4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icon5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -347,11 +347,11 @@
         private System.Windows.Forms.Label day3;
         private System.Windows.Forms.Label max3;
         private System.Windows.Forms.Label min3;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox icon1;
+        private System.Windows.Forms.PictureBox icon2;
+        private System.Windows.Forms.PictureBox icon3;
+        private System.Windows.Forms.PictureBox icon4;
+        private System.Windows.Forms.PictureBox icon5;
         private System.Windows.Forms.Label day4;
         private System.Windows.Forms.Label day5;
         private System.Windows.Forms.Label max4;

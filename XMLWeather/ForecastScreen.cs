@@ -11,6 +11,8 @@ namespace XMLWeather
 {
     public partial class ForecastScreen : UserControl
     {
+        List<PictureBox> pictureBoxes = new List<PictureBox>();
+
         public ForecastScreen()
         {
             InitializeComponent();
@@ -19,6 +21,13 @@ namespace XMLWeather
 
         public void displayForecast()
         {
+            //adding weather images
+            pictureBoxes.Add(icon1);
+            pictureBoxes.Add(icon2);
+            pictureBoxes.Add(icon3);
+            pictureBoxes.Add(icon4);
+            pictureBoxes.Add(icon5);
+
             day1.Text = Form1.days[1].date;
             day2.Text = Form1.days[2].date;
             day3.Text = Form1.days[3].date;
@@ -40,6 +49,41 @@ namespace XMLWeather
             max5.Text = Convert.ToDouble(Form1.days[5].tempHigh).ToString("#");
             min5.Text = Convert.ToDouble(Form1.days[5].tempHigh).ToString("#");
             //max2.Text = Convert.ToDouble(Form1.days[1.temp])
+
+            //if (outsideWeather < 300 && outsideWeather >= 200)
+            //{
+            //    pictureBoxes[i].Image = Properties.Resources.thunderstorm;
+
+            //}
+            //else if (outsideWeather >= 300 && outsideWeather < 400)
+            //{
+            //    pictureBoxes[i].Image = Properties.Resources.showerRain;
+            //}
+            //else if (outsideWeather >= 500 && outsideWeather < 600)
+            //{
+            //    pictureBoxes[i].Image = Properties.Resources.rain;
+            //    BackgroundImage = Properties.Resources.rainBackground;
+            //}
+            //else if (outsideWeather >= 600 && outsideWeather < 700)
+            //{
+            //    pictureBoxes[i].Image = Properties.Resources.snow;
+            //    BackgroundImage = Properties.Resources.snowBackground;
+            //}
+            //else if (outsideWeather >= 700 && outsideWeather < 800)
+            //{
+            //    pictureBoxes[i].Image = Properties.Resources.mist;
+            //    BackgroundImage = Properties.Resources.mistBackground;
+            //}
+            //else if (outsideWeather >= 800)
+            //{
+            //    pictureBoxes[i].Image = Properties.Resources.clearSky;
+            //    BackgroundImage = Properties.Resources.clearBackground;
+            //}
+            //else if (outsideWeather <= 80)
+            //{
+            //    pictureBoxes[i].Image = Properties.Resources.scatterdClouds;
+            //    BackgroundImage = Properties.Resources.cloudBackgrounds;
+            //}
         }
 
         private void label3_Click(object sender, EventArgs e)
