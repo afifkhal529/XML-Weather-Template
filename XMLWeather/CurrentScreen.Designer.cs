@@ -31,7 +31,7 @@
             this.cityOutput = new System.Windows.Forms.Label();
             this.maxOutput = new System.Windows.Forms.Label();
             this.minOutput = new System.Windows.Forms.Label();
-            this.currentOutput = new System.Windows.Forms.Label();
+            this.weatherOutput = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.forecastLabel = new System.Windows.Forms.Label();
             this.searchLabel = new System.Windows.Forms.Label();
@@ -77,18 +77,18 @@
             this.minOutput.Text = "1";
             this.minOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // currentOutput
+            // weatherOutput
             // 
-            this.currentOutput.BackColor = System.Drawing.Color.Transparent;
-            this.currentOutput.Font = new System.Drawing.Font("Dubai", 25F, System.Drawing.FontStyle.Bold);
-            this.currentOutput.ForeColor = System.Drawing.Color.White;
-            this.currentOutput.Location = new System.Drawing.Point(153, 186);
-            this.currentOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.currentOutput.Name = "currentOutput";
-            this.currentOutput.Size = new System.Drawing.Size(94, 67);
-            this.currentOutput.TabIndex = 28;
-            this.currentOutput.Text = "out";
-            this.currentOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.weatherOutput.BackColor = System.Drawing.Color.Transparent;
+            this.weatherOutput.Font = new System.Drawing.Font("Dubai", 25F, System.Drawing.FontStyle.Bold);
+            this.weatherOutput.ForeColor = System.Drawing.Color.White;
+            this.weatherOutput.Location = new System.Drawing.Point(153, 186);
+            this.weatherOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.weatherOutput.Name = "weatherOutput";
+            this.weatherOutput.Size = new System.Drawing.Size(94, 67);
+            this.weatherOutput.TabIndex = 28;
+            this.weatherOutput.Text = "out";
+            this.weatherOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
@@ -168,7 +168,7 @@
             this.Controls.Add(this.forecastLabel);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.cityOutput);
-            this.Controls.Add(this.currentOutput);
+            this.Controls.Add(this.weatherOutput);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CurrentScreen";
             this.Size = new System.Drawing.Size(400, 492);
@@ -180,7 +180,7 @@
         private System.Windows.Forms.Label cityOutput;
         private System.Windows.Forms.Label maxOutput;
         private System.Windows.Forms.Label minOutput;
-        private System.Windows.Forms.Label currentOutput;
+        private System.Windows.Forms.Label weatherOutput;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label forecastLabel;
         private System.Windows.Forms.Label searchLabel;

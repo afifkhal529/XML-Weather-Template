@@ -41,7 +41,9 @@ namespace XMLWeather
                 //fill day object with required data
                 reader.ReadToFollowing("time");
                 d.date = reader.GetAttribute("day");
-                //
+
+                //reader.ReadToFollowing("symbol");
+                //d.weatherOutpu = reader.GetAttribute("number");
 
                 reader.ReadToFollowing("temperature");
                 d.tempLow = reader.GetAttribute("min");

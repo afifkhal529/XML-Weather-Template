@@ -60,25 +60,27 @@
             // 
             // min1
             // 
-            this.min1.BackColor = System.Drawing.Color.White;
+            this.min1.BackColor = System.Drawing.Color.Transparent;
             this.min1.Font = new System.Drawing.Font("Dubai", 9F);
-            this.min1.ForeColor = System.Drawing.Color.White;
-            this.min1.Location = new System.Drawing.Point(308, 177);
+            this.min1.ForeColor = System.Drawing.Color.Black;
+            this.min1.Location = new System.Drawing.Point(306, 172);
             this.min1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.min1.Name = "min1";
-            this.min1.Size = new System.Drawing.Size(29, 16);
+            this.min1.Size = new System.Drawing.Size(31, 26);
             this.min1.TabIndex = 48;
+            this.min1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // max1
             // 
-            this.max1.BackColor = System.Drawing.Color.White;
+            this.max1.BackColor = System.Drawing.Color.Transparent;
             this.max1.Font = new System.Drawing.Font("Dubai", 9F);
-            this.max1.ForeColor = System.Drawing.Color.White;
-            this.max1.Location = new System.Drawing.Point(247, 177);
+            this.max1.ForeColor = System.Drawing.Color.Black;
+            this.max1.Location = new System.Drawing.Point(242, 172);
             this.max1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.max1.Name = "max1";
-            this.max1.Size = new System.Drawing.Size(29, 16);
+            this.max1.Size = new System.Drawing.Size(32, 31);
             this.max1.TabIndex = 45;
+            this.max1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // day1
             // 
@@ -106,23 +108,26 @@
             // 
             // min2
             // 
-            this.min2.BackColor = System.Drawing.Color.White;
-            this.min2.Location = new System.Drawing.Point(308, 238);
+            this.min2.BackColor = System.Drawing.Color.Transparent;
+            this.min2.ForeColor = System.Drawing.Color.Black;
+            this.min2.Location = new System.Drawing.Point(304, 230);
             this.min2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.min2.Name = "min2";
-            this.min2.Size = new System.Drawing.Size(29, 16);
+            this.min2.Size = new System.Drawing.Size(33, 29);
             this.min2.TabIndex = 68;
+            this.min2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // max2
             // 
-            this.max2.BackColor = System.Drawing.Color.White;
+            this.max2.BackColor = System.Drawing.Color.Transparent;
             this.max2.Font = new System.Drawing.Font("Dubai", 9F);
-            this.max2.ForeColor = System.Drawing.Color.White;
-            this.max2.Location = new System.Drawing.Point(245, 236);
+            this.max2.ForeColor = System.Drawing.Color.Black;
+            this.max2.Location = new System.Drawing.Point(243, 230);
             this.max2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.max2.Name = "max2";
-            this.max2.Size = new System.Drawing.Size(29, 16);
+            this.max2.Size = new System.Drawing.Size(31, 29);
             this.max2.TabIndex = 66;
+            this.max2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // currentForecast
             // 
@@ -179,25 +184,27 @@
             // 
             // max3
             // 
-            this.max3.BackColor = System.Drawing.Color.White;
+            this.max3.BackColor = System.Drawing.Color.Transparent;
             this.max3.Font = new System.Drawing.Font("Dubai", 9F);
-            this.max3.ForeColor = System.Drawing.Color.White;
-            this.max3.Location = new System.Drawing.Point(245, 302);
+            this.max3.ForeColor = System.Drawing.Color.Black;
+            this.max3.Location = new System.Drawing.Point(244, 290);
             this.max3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.max3.Name = "max3";
-            this.max3.Size = new System.Drawing.Size(29, 16);
+            this.max3.Size = new System.Drawing.Size(30, 34);
             this.max3.TabIndex = 74;
+            this.max3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // min3
             // 
-            this.min3.BackColor = System.Drawing.Color.White;
+            this.min3.BackColor = System.Drawing.Color.Transparent;
             this.min3.Font = new System.Drawing.Font("Dubai", 9F);
-            this.min3.ForeColor = System.Drawing.Color.White;
-            this.min3.Location = new System.Drawing.Point(308, 302);
+            this.min3.ForeColor = System.Drawing.Color.Black;
+            this.min3.Location = new System.Drawing.Point(300, 290);
             this.min3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.min3.Name = "min3";
-            this.min3.Size = new System.Drawing.Size(29, 16);
+            this.min3.Size = new System.Drawing.Size(37, 34);
             this.min3.TabIndex = 75;
+            this.min3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // icon1
             // 
@@ -270,47 +277,51 @@
             // 
             // max4
             // 
-            this.max4.BackColor = System.Drawing.Color.White;
+            this.max4.BackColor = System.Drawing.Color.Transparent;
             this.max4.Font = new System.Drawing.Font("Dubai", 9F);
-            this.max4.ForeColor = System.Drawing.Color.White;
-            this.max4.Location = new System.Drawing.Point(245, 352);
+            this.max4.ForeColor = System.Drawing.Color.Black;
+            this.max4.Location = new System.Drawing.Point(245, 345);
             this.max4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.max4.Name = "max4";
-            this.max4.Size = new System.Drawing.Size(29, 16);
+            this.max4.Size = new System.Drawing.Size(29, 36);
             this.max4.TabIndex = 85;
+            this.max4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // max5
             // 
-            this.max5.BackColor = System.Drawing.Color.White;
+            this.max5.BackColor = System.Drawing.Color.Transparent;
             this.max5.Font = new System.Drawing.Font("Dubai", 9F);
-            this.max5.ForeColor = System.Drawing.Color.White;
-            this.max5.Location = new System.Drawing.Point(245, 407);
+            this.max5.ForeColor = System.Drawing.Color.Black;
+            this.max5.Location = new System.Drawing.Point(244, 401);
             this.max5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.max5.Name = "max5";
-            this.max5.Size = new System.Drawing.Size(29, 16);
+            this.max5.Size = new System.Drawing.Size(30, 29);
             this.max5.TabIndex = 86;
+            this.max5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // min5
             // 
-            this.min5.BackColor = System.Drawing.Color.White;
+            this.min5.BackColor = System.Drawing.Color.Transparent;
             this.min5.Font = new System.Drawing.Font("Dubai", 9F);
-            this.min5.ForeColor = System.Drawing.Color.White;
-            this.min5.Location = new System.Drawing.Point(308, 407);
+            this.min5.ForeColor = System.Drawing.Color.Black;
+            this.min5.Location = new System.Drawing.Point(308, 401);
             this.min5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.min5.Name = "min5";
-            this.min5.Size = new System.Drawing.Size(29, 16);
+            this.min5.Size = new System.Drawing.Size(29, 29);
             this.min5.TabIndex = 87;
+            this.min5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // min4
             // 
-            this.min4.BackColor = System.Drawing.Color.White;
+            this.min4.BackColor = System.Drawing.Color.Transparent;
             this.min4.Font = new System.Drawing.Font("Dubai", 9F);
-            this.min4.ForeColor = System.Drawing.Color.White;
-            this.min4.Location = new System.Drawing.Point(308, 352);
+            this.min4.ForeColor = System.Drawing.Color.Black;
+            this.min4.Location = new System.Drawing.Point(305, 345);
             this.min4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.min4.Name = "min4";
-            this.min4.Size = new System.Drawing.Size(29, 16);
+            this.min4.Size = new System.Drawing.Size(32, 36);
             this.min4.TabIndex = 88;
+            this.min4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ForecastScreen
             // 
