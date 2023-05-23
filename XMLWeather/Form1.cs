@@ -23,7 +23,6 @@ namespace XMLWeather
 
             ExtractForecast();
             ExtractCurrent();
-            ExtractIcons();
             
             // open weather screen for todays weather
             CurrentScreen cs = new CurrentScreen();
@@ -42,6 +41,7 @@ namespace XMLWeather
                 //fill day object with required data
                 reader.ReadToFollowing("time");
                 d.date = reader.GetAttribute("day");
+                //
 
                 reader.ReadToFollowing("temperature");
                 d.tempLow = reader.GetAttribute("min");
@@ -67,23 +67,16 @@ namespace XMLWeather
 
             reader.ReadToFollowing("temperature");
             days[0].currentTemp = reader.GetAttribute("value");
+            days[0].tempLow = reader.GetAttribute("min");
+            days[0].tempHigh = reader.GetAttribute("max");
 
             reader.ReadToFollowing("condition");
             days[0].condition = reader.GetAttribute("condition");
 
+            //reader.ReadToFollowing("weather");
+            //days[0].weatherNumber = reader.GetAttribute("number");
+            //days[0].weatherValue = reader.GetAttribute("value");
         }
 
-        private void ExtractIcons()
-        {
-            //XmlReader reader = XmlReader.Create("https://openweathermap.org/img/wn/01d.png");
-            //while (reader.Read())
-            //{
-            //    Day d = new Day();
-            //    reader.ReadToFollowing("condition");
-            //    d.date = reader.GetAttribute("da");
-
-            //}
-            
-        }
     }
 }

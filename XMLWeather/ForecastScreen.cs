@@ -11,6 +11,8 @@ namespace XMLWeather
 {
     public partial class ForecastScreen : UserControl
     {
+        double outsideWeather;
+
         List<PictureBox> pictureBoxes = new List<PictureBox>();
 
         public ForecastScreen()
@@ -50,20 +52,18 @@ namespace XMLWeather
             min5.Text = Convert.ToDouble(Form1.days[5].tempHigh).ToString("#");
             //max2.Text = Convert.ToDouble(Form1.days[1.temp])
 
-            //if (outsideWeather < 300 && outsideWeather >= 200)
-            //{
-            //    pictureBoxes[i].Image = Properties.Resources.thunderstorm;
-
-            //}
-            //else if (outsideWeather >= 300 && outsideWeather < 400)
-            //{
-            //    pictureBoxes[i].Image = Properties.Resources.showerRain;
-            //}
-            //else if (outsideWeather >= 500 && outsideWeather < 600)
-            //{
-            //    pictureBoxes[i].Image = Properties.Resources.rain;
-            //    BackgroundImage = Properties.Resources.rainBackground;
-            //}
+            if (outsideWeather < 300 && outsideWeather >= 200)
+            {
+                pictureBoxes[0].Image = Properties.Resources.thunderstorm;
+            }
+             if (outsideWeather >= 300 && outsideWeather < 400)
+            {
+                pictureBoxes[1].Image = Properties.Resources.shower_rain;
+            }
+            if (outsideWeather >= 500 && outsideWeather < 600)
+            {
+                pictureBoxes[2].Image = Properties.Resources.rain;
+            }
             //else if (outsideWeather >= 600 && outsideWeather < 700)
             //{
             //    pictureBoxes[i].Image = Properties.Resources.snow;
@@ -74,19 +74,17 @@ namespace XMLWeather
             //    pictureBoxes[i].Image = Properties.Resources.mist;
             //    BackgroundImage = Properties.Resources.mistBackground;
             //}
-            //else if (outsideWeather >= 800)
-            //{
-            //    pictureBoxes[i].Image = Properties.Resources.clearSky;
-            //    BackgroundImage = Properties.Resources.clearBackground;
-            //}
-            //else if (outsideWeather <= 80)
-            //{
-            //    pictureBoxes[i].Image = Properties.Resources.scatterdClouds;
-            //    BackgroundImage = Properties.Resources.cloudBackgrounds;
-            //}
+            if (outsideWeather >= 800)
+            {
+                pictureBoxes[3].Image = Properties.Resources.sunny;
+            }
+            else if (outsideWeather <= 80)
+            {
+                pictureBoxes[4].Image = Properties.Resources.scattered_clouds;
+            }
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void currentForecast_Click(object sender, EventArgs e)
         {
             Form f = this.FindForm();
             f.Controls.Remove(this);
@@ -95,7 +93,7 @@ namespace XMLWeather
             f.Controls.Add(cs);
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void weeklyForecast_Click(object sender, EventArgs e)
         {
             Form f = this.FindForm();
             f.Controls.Remove(this);

@@ -34,8 +34,8 @@
             this.day2 = new System.Windows.Forms.Label();
             this.min2 = new System.Windows.Forms.Label();
             this.max2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.currentForecast = new System.Windows.Forms.Label();
+            this.weeklyForecast = new System.Windows.Forms.Label();
             this.searchLabel = new System.Windows.Forms.Label();
             this.day3 = new System.Windows.Forms.Label();
             this.max3 = new System.Windows.Forms.Label();
@@ -63,9 +63,10 @@
             this.min1.BackColor = System.Drawing.Color.White;
             this.min1.Font = new System.Drawing.Font("Dubai", 9F);
             this.min1.ForeColor = System.Drawing.Color.White;
-            this.min1.Location = new System.Drawing.Point(231, 144);
+            this.min1.Location = new System.Drawing.Point(308, 177);
+            this.min1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.min1.Name = "min1";
-            this.min1.Size = new System.Drawing.Size(22, 13);
+            this.min1.Size = new System.Drawing.Size(29, 16);
             this.min1.TabIndex = 48;
             // 
             // max1
@@ -73,9 +74,10 @@
             this.max1.BackColor = System.Drawing.Color.White;
             this.max1.Font = new System.Drawing.Font("Dubai", 9F);
             this.max1.ForeColor = System.Drawing.Color.White;
-            this.max1.Location = new System.Drawing.Point(185, 144);
+            this.max1.Location = new System.Drawing.Point(247, 177);
+            this.max1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.max1.Name = "max1";
-            this.max1.Size = new System.Drawing.Size(22, 13);
+            this.max1.Size = new System.Drawing.Size(29, 16);
             this.max1.TabIndex = 45;
             // 
             // day1
@@ -83,9 +85,10 @@
             this.day1.AutoSize = true;
             this.day1.Font = new System.Drawing.Font("Dubai", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.day1.ForeColor = System.Drawing.Color.White;
-            this.day1.Location = new System.Drawing.Point(76, 141);
+            this.day1.Location = new System.Drawing.Point(101, 174);
+            this.day1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.day1.Name = "day1";
-            this.day1.Size = new System.Drawing.Size(32, 24);
+            this.day1.Size = new System.Drawing.Size(40, 29);
             this.day1.TabIndex = 64;
             this.day1.Text = "Day";
             // 
@@ -94,18 +97,20 @@
             this.day2.AutoSize = true;
             this.day2.Font = new System.Drawing.Font("Dubai", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.day2.ForeColor = System.Drawing.Color.White;
-            this.day2.Location = new System.Drawing.Point(76, 187);
+            this.day2.Location = new System.Drawing.Point(101, 230);
+            this.day2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.day2.Name = "day2";
-            this.day2.Size = new System.Drawing.Size(43, 24);
+            this.day2.Size = new System.Drawing.Size(53, 29);
             this.day2.TabIndex = 69;
             this.day2.Text = "Day 2";
             // 
             // min2
             // 
             this.min2.BackColor = System.Drawing.Color.White;
-            this.min2.Location = new System.Drawing.Point(231, 193);
+            this.min2.Location = new System.Drawing.Point(308, 238);
+            this.min2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.min2.Name = "min2";
-            this.min2.Size = new System.Drawing.Size(22, 13);
+            this.min2.Size = new System.Drawing.Size(29, 16);
             this.min2.TabIndex = 68;
             // 
             // max2
@@ -113,44 +118,48 @@
             this.max2.BackColor = System.Drawing.Color.White;
             this.max2.Font = new System.Drawing.Font("Dubai", 9F);
             this.max2.ForeColor = System.Drawing.Color.White;
-            this.max2.Location = new System.Drawing.Point(184, 192);
+            this.max2.Location = new System.Drawing.Point(245, 236);
+            this.max2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.max2.Name = "max2";
-            this.max2.Size = new System.Drawing.Size(22, 13);
+            this.max2.Size = new System.Drawing.Size(29, 16);
             this.max2.TabIndex = 66;
             // 
-            // label3
+            // currentForecast
             // 
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Dubai Medium", 11F, System.Drawing.FontStyle.Bold);
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(238, 14);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 28);
-            this.label3.TabIndex = 70;
-            this.label3.Text = "Today";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.currentForecast.BackColor = System.Drawing.Color.Transparent;
+            this.currentForecast.Font = new System.Drawing.Font("Dubai Medium", 11F, System.Drawing.FontStyle.Bold);
+            this.currentForecast.ForeColor = System.Drawing.Color.White;
+            this.currentForecast.Location = new System.Drawing.Point(317, 17);
+            this.currentForecast.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.currentForecast.Name = "currentForecast";
+            this.currentForecast.Size = new System.Drawing.Size(77, 34);
+            this.currentForecast.TabIndex = 70;
+            this.currentForecast.Text = "Today";
+            this.currentForecast.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label2
+            // weeklyForecast
             // 
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Dubai Medium", 11F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(238, 41);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 28);
-            this.label2.TabIndex = 71;
-            this.label2.Text = "7 Day";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.weeklyForecast.BackColor = System.Drawing.Color.Transparent;
+            this.weeklyForecast.Font = new System.Drawing.Font("Dubai Medium", 11F, System.Drawing.FontStyle.Bold);
+            this.weeklyForecast.ForeColor = System.Drawing.Color.White;
+            this.weeklyForecast.Location = new System.Drawing.Point(317, 50);
+            this.weeklyForecast.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.weeklyForecast.Name = "weeklyForecast";
+            this.weeklyForecast.Size = new System.Drawing.Size(77, 34);
+            this.weeklyForecast.TabIndex = 71;
+            this.weeklyForecast.Text = "7 Day";
+            this.weeklyForecast.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.weeklyForecast.Click += new System.EventHandler(this.weeklyForecast_Click);
             // 
             // searchLabel
             // 
             this.searchLabel.BackColor = System.Drawing.Color.Transparent;
             this.searchLabel.Font = new System.Drawing.Font("Dubai Medium", 11F, System.Drawing.FontStyle.Bold);
             this.searchLabel.ForeColor = System.Drawing.Color.White;
-            this.searchLabel.Location = new System.Drawing.Point(238, 69);
+            this.searchLabel.Location = new System.Drawing.Point(317, 85);
+            this.searchLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.searchLabel.Name = "searchLabel";
-            this.searchLabel.Size = new System.Drawing.Size(64, 28);
+            this.searchLabel.Size = new System.Drawing.Size(85, 34);
             this.searchLabel.TabIndex = 72;
             this.searchLabel.Text = "Search";
             this.searchLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -161,9 +170,10 @@
             this.day3.AutoSize = true;
             this.day3.Font = new System.Drawing.Font("Dubai", 10F);
             this.day3.ForeColor = System.Drawing.Color.White;
-            this.day3.Location = new System.Drawing.Point(76, 236);
+            this.day3.Location = new System.Drawing.Point(101, 290);
+            this.day3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.day3.Name = "day3";
-            this.day3.Size = new System.Drawing.Size(43, 24);
+            this.day3.Size = new System.Drawing.Size(53, 29);
             this.day3.TabIndex = 73;
             this.day3.Text = "Day 3";
             // 
@@ -172,9 +182,10 @@
             this.max3.BackColor = System.Drawing.Color.White;
             this.max3.Font = new System.Drawing.Font("Dubai", 9F);
             this.max3.ForeColor = System.Drawing.Color.White;
-            this.max3.Location = new System.Drawing.Point(184, 245);
+            this.max3.Location = new System.Drawing.Point(245, 302);
+            this.max3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.max3.Name = "max3";
-            this.max3.Size = new System.Drawing.Size(22, 13);
+            this.max3.Size = new System.Drawing.Size(29, 16);
             this.max3.TabIndex = 74;
             // 
             // min3
@@ -182,53 +193,54 @@
             this.min3.BackColor = System.Drawing.Color.White;
             this.min3.Font = new System.Drawing.Font("Dubai", 9F);
             this.min3.ForeColor = System.Drawing.Color.White;
-            this.min3.Location = new System.Drawing.Point(231, 245);
+            this.min3.Location = new System.Drawing.Point(308, 302);
+            this.min3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.min3.Name = "min3";
-            this.min3.Size = new System.Drawing.Size(22, 13);
+            this.min3.Size = new System.Drawing.Size(29, 16);
             this.min3.TabIndex = 75;
             // 
             // icon1
             // 
-            this.icon1.Location = new System.Drawing.Point(12, 132);
-            this.icon1.Margin = new System.Windows.Forms.Padding(2);
+            this.icon1.Location = new System.Drawing.Point(16, 162);
+            this.icon1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.icon1.Name = "icon1";
-            this.icon1.Size = new System.Drawing.Size(58, 41);
+            this.icon1.Size = new System.Drawing.Size(77, 50);
             this.icon1.TabIndex = 78;
             this.icon1.TabStop = false;
             // 
             // icon2
             // 
-            this.icon2.Location = new System.Drawing.Point(12, 178);
-            this.icon2.Margin = new System.Windows.Forms.Padding(2);
+            this.icon2.Location = new System.Drawing.Point(16, 219);
+            this.icon2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.icon2.Name = "icon2";
-            this.icon2.Size = new System.Drawing.Size(58, 41);
+            this.icon2.Size = new System.Drawing.Size(77, 50);
             this.icon2.TabIndex = 79;
             this.icon2.TabStop = false;
             // 
             // icon3
             // 
-            this.icon3.Location = new System.Drawing.Point(12, 223);
-            this.icon3.Margin = new System.Windows.Forms.Padding(2);
+            this.icon3.Location = new System.Drawing.Point(16, 274);
+            this.icon3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.icon3.Name = "icon3";
-            this.icon3.Size = new System.Drawing.Size(58, 41);
+            this.icon3.Size = new System.Drawing.Size(77, 50);
             this.icon3.TabIndex = 80;
             this.icon3.TabStop = false;
             // 
             // icon4
             // 
-            this.icon4.Location = new System.Drawing.Point(12, 269);
-            this.icon4.Margin = new System.Windows.Forms.Padding(2);
+            this.icon4.Location = new System.Drawing.Point(16, 331);
+            this.icon4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.icon4.Name = "icon4";
-            this.icon4.Size = new System.Drawing.Size(58, 41);
+            this.icon4.Size = new System.Drawing.Size(77, 50);
             this.icon4.TabIndex = 81;
             this.icon4.TabStop = false;
             // 
             // icon5
             // 
-            this.icon5.Location = new System.Drawing.Point(12, 314);
-            this.icon5.Margin = new System.Windows.Forms.Padding(2);
+            this.icon5.Location = new System.Drawing.Point(16, 386);
+            this.icon5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.icon5.Name = "icon5";
-            this.icon5.Size = new System.Drawing.Size(58, 41);
+            this.icon5.Size = new System.Drawing.Size(77, 50);
             this.icon5.TabIndex = 82;
             this.icon5.TabStop = false;
             // 
@@ -237,9 +249,10 @@
             this.day4.AutoSize = true;
             this.day4.Font = new System.Drawing.Font("Dubai", 10F);
             this.day4.ForeColor = System.Drawing.Color.White;
-            this.day4.Location = new System.Drawing.Point(76, 280);
+            this.day4.Location = new System.Drawing.Point(101, 345);
+            this.day4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.day4.Name = "day4";
-            this.day4.Size = new System.Drawing.Size(43, 24);
+            this.day4.Size = new System.Drawing.Size(53, 29);
             this.day4.TabIndex = 83;
             this.day4.Text = "Day 4";
             // 
@@ -248,9 +261,10 @@
             this.day5.AutoSize = true;
             this.day5.Font = new System.Drawing.Font("Dubai", 10F);
             this.day5.ForeColor = System.Drawing.Color.White;
-            this.day5.Location = new System.Drawing.Point(76, 324);
+            this.day5.Location = new System.Drawing.Point(101, 399);
+            this.day5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.day5.Name = "day5";
-            this.day5.Size = new System.Drawing.Size(43, 24);
+            this.day5.Size = new System.Drawing.Size(53, 29);
             this.day5.TabIndex = 84;
             this.day5.Text = "Day 5";
             // 
@@ -259,9 +273,10 @@
             this.max4.BackColor = System.Drawing.Color.White;
             this.max4.Font = new System.Drawing.Font("Dubai", 9F);
             this.max4.ForeColor = System.Drawing.Color.White;
-            this.max4.Location = new System.Drawing.Point(184, 286);
+            this.max4.Location = new System.Drawing.Point(245, 352);
+            this.max4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.max4.Name = "max4";
-            this.max4.Size = new System.Drawing.Size(22, 13);
+            this.max4.Size = new System.Drawing.Size(29, 16);
             this.max4.TabIndex = 85;
             // 
             // max5
@@ -269,9 +284,10 @@
             this.max5.BackColor = System.Drawing.Color.White;
             this.max5.Font = new System.Drawing.Font("Dubai", 9F);
             this.max5.ForeColor = System.Drawing.Color.White;
-            this.max5.Location = new System.Drawing.Point(184, 331);
+            this.max5.Location = new System.Drawing.Point(245, 407);
+            this.max5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.max5.Name = "max5";
-            this.max5.Size = new System.Drawing.Size(22, 13);
+            this.max5.Size = new System.Drawing.Size(29, 16);
             this.max5.TabIndex = 86;
             // 
             // min5
@@ -279,9 +295,10 @@
             this.min5.BackColor = System.Drawing.Color.White;
             this.min5.Font = new System.Drawing.Font("Dubai", 9F);
             this.min5.ForeColor = System.Drawing.Color.White;
-            this.min5.Location = new System.Drawing.Point(231, 331);
+            this.min5.Location = new System.Drawing.Point(308, 407);
+            this.min5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.min5.Name = "min5";
-            this.min5.Size = new System.Drawing.Size(22, 13);
+            this.min5.Size = new System.Drawing.Size(29, 16);
             this.min5.TabIndex = 87;
             // 
             // min4
@@ -289,14 +306,15 @@
             this.min4.BackColor = System.Drawing.Color.White;
             this.min4.Font = new System.Drawing.Font("Dubai", 9F);
             this.min4.ForeColor = System.Drawing.Color.White;
-            this.min4.Location = new System.Drawing.Point(231, 286);
+            this.min4.Location = new System.Drawing.Point(308, 352);
+            this.min4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.min4.Name = "min4";
-            this.min4.Size = new System.Drawing.Size(22, 13);
+            this.min4.Size = new System.Drawing.Size(29, 16);
             this.min4.TabIndex = 88;
             // 
             // ForecastScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGray;
             this.Controls.Add(this.min4);
@@ -314,16 +332,17 @@
             this.Controls.Add(this.max3);
             this.Controls.Add(this.day3);
             this.Controls.Add(this.searchLabel);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.weeklyForecast);
+            this.Controls.Add(this.currentForecast);
             this.Controls.Add(this.day2);
             this.Controls.Add(this.min2);
             this.Controls.Add(this.max2);
             this.Controls.Add(this.day1);
             this.Controls.Add(this.min1);
             this.Controls.Add(this.max1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ForecastScreen";
-            this.Size = new System.Drawing.Size(300, 400);
+            this.Size = new System.Drawing.Size(400, 492);
             ((System.ComponentModel.ISupportInitialize)(this.icon1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.icon2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.icon3)).EndInit();
@@ -341,8 +360,8 @@
         private System.Windows.Forms.Label day2;
         private System.Windows.Forms.Label min2;
         private System.Windows.Forms.Label max2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label currentForecast;
+        private System.Windows.Forms.Label weeklyForecast;
         private System.Windows.Forms.Label searchLabel;
         private System.Windows.Forms.Label day3;
         private System.Windows.Forms.Label max3;

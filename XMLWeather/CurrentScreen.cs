@@ -4,7 +4,8 @@ using System.Windows.Forms;
 namespace XMLWeather
 {
     public partial class CurrentScreen : UserControl
-    {   
+    {
+        double outsideWeather;
 
         public CurrentScreen()
         {
@@ -23,6 +24,26 @@ namespace XMLWeather
             //minOutput.Text = Form1.days[1].tempLow;
             //maxOutput.Text = Convert.ToDouble(Form1.days[1].tempHigh).ToString("#");
 
+            if (outsideWeather < 300 && outsideWeather >= 200)
+            {
+                BackgroundImage = Properties.Resources.thunderstormImage;
+            }
+            else if (outsideWeather >= 300 && outsideWeather < 400)
+            {
+                BackgroundImage = Properties.Resources.showerRainImage;
+            }
+            else if (outsideWeather >= 500 && outsideWeather < 600)
+            {
+                BackgroundImage = Properties.Resources.rainImage;
+            }
+            else if (outsideWeather >= 800)
+            {
+                BackgroundImage = Properties.Resources.sunnyImage;
+            }
+            else if (outsideWeather <= 80)
+            {
+                BackgroundImage = Properties.Resources.cloudsImage;
+            }
         }
 
         private void forecastLabel_Click(object sender, EventArgs e)
