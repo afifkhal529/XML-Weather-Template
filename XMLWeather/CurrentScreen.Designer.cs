@@ -82,7 +82,7 @@
             this.weatherOutput.BackColor = System.Drawing.Color.Transparent;
             this.weatherOutput.Font = new System.Drawing.Font("Dubai", 25F, System.Drawing.FontStyle.Bold);
             this.weatherOutput.ForeColor = System.Drawing.Color.White;
-            this.weatherOutput.Location = new System.Drawing.Point(153, 186);
+            this.weatherOutput.Location = new System.Drawing.Point(157, 186);
             this.weatherOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.weatherOutput.Name = "weatherOutput";
             this.weatherOutput.Size = new System.Drawing.Size(94, 67);
@@ -113,7 +113,7 @@
             this.forecastLabel.Name = "forecastLabel";
             this.forecastLabel.Size = new System.Drawing.Size(78, 34);
             this.forecastLabel.TabIndex = 41;
-            this.forecastLabel.Text = "7 Day";
+            this.forecastLabel.Text = "5 Day";
             this.forecastLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.forecastLabel.Click += new System.EventHandler(this.forecastLabel_Click);
             // 

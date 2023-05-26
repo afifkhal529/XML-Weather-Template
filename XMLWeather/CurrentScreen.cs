@@ -15,6 +15,8 @@ namespace XMLWeather
 
         public void DisplayCurrent()
         {
+            outsideWeather = Convert.ToDouble(Form1.days[0].weatherNumber);
+
             cityOutput.Text = Form1.days[0].location;
             weatherOutput.Text = Convert.ToDouble(Form1.days[0].currentTemp).ToString("#");
             minOutput.Text = Convert.ToDouble(Form1.days[1].tempLow).ToString("#");

@@ -61,7 +61,7 @@
             // min1
             // 
             this.min1.BackColor = System.Drawing.Color.Transparent;
-            this.min1.Font = new System.Drawing.Font("Dubai", 9F);
+            this.min1.Font = new System.Drawing.Font("Dubai", 10F);
             this.min1.ForeColor = System.Drawing.Color.Black;
             this.min1.Location = new System.Drawing.Point(306, 172);
             this.min1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -73,7 +73,7 @@
             // max1
             // 
             this.max1.BackColor = System.Drawing.Color.Transparent;
-            this.max1.Font = new System.Drawing.Font("Dubai", 9F);
+            this.max1.Font = new System.Drawing.Font("Dubai", 10F);
             this.max1.ForeColor = System.Drawing.Color.Black;
             this.max1.Location = new System.Drawing.Point(242, 172);
             this.max1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -109,6 +109,7 @@
             // min2
             // 
             this.min2.BackColor = System.Drawing.Color.Transparent;
+            this.min2.Font = new System.Drawing.Font("Dubai", 10F);
             this.min2.ForeColor = System.Drawing.Color.Black;
             this.min2.Location = new System.Drawing.Point(304, 230);
             this.min2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -120,7 +121,7 @@
             // max2
             // 
             this.max2.BackColor = System.Drawing.Color.Transparent;
-            this.max2.Font = new System.Drawing.Font("Dubai", 9F);
+            this.max2.Font = new System.Drawing.Font("Dubai", 10F);
             this.max2.ForeColor = System.Drawing.Color.Black;
             this.max2.Location = new System.Drawing.Point(243, 230);
             this.max2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -152,7 +153,7 @@
             this.weeklyForecast.Name = "weeklyForecast";
             this.weeklyForecast.Size = new System.Drawing.Size(77, 34);
             this.weeklyForecast.TabIndex = 71;
-            this.weeklyForecast.Text = "7 Day";
+            this.weeklyForecast.Text = "5 Day";
             this.weeklyForecast.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.weeklyForecast.Click += new System.EventHandler(this.weeklyForecast_Click);
             // 
@@ -185,7 +186,7 @@
             // max3
             // 
             this.max3.BackColor = System.Drawing.Color.Transparent;
-            this.max3.Font = new System.Drawing.Font("Dubai", 9F);
+            this.max3.Font = new System.Drawing.Font("Dubai", 10F);
             this.max3.ForeColor = System.Drawing.Color.Black;
             this.max3.Location = new System.Drawing.Point(244, 290);
             this.max3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -197,7 +198,7 @@
             // min3
             // 
             this.min3.BackColor = System.Drawing.Color.Transparent;
-            this.min3.Font = new System.Drawing.Font("Dubai", 9F);
+            this.min3.Font = new System.Drawing.Font("Dubai", 10F);
             this.min3.ForeColor = System.Drawing.Color.Black;
             this.min3.Location = new System.Drawing.Point(300, 290);
             this.min3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -278,7 +279,7 @@
             // max4
             // 
             this.max4.BackColor = System.Drawing.Color.Transparent;
-            this.max4.Font = new System.Drawing.Font("Dubai", 9F);
+            this.max4.Font = new System.Drawing.Font("Dubai", 10F);
             this.max4.ForeColor = System.Drawing.Color.Black;
             this.max4.Location = new System.Drawing.Point(245, 345);
             this.max4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -290,7 +291,7 @@
             // max5
             // 
             this.max5.BackColor = System.Drawing.Color.Transparent;
-            this.max5.Font = new System.Drawing.Font("Dubai", 9F);
+            this.max5.Font = new System.Drawing.Font("Dubai", 10F);
             this.max5.ForeColor = System.Drawing.Color.Black;
             this.max5.Location = new System.Drawing.Point(244, 401);
             this.max5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -302,7 +303,7 @@
             // min5
             // 
             this.min5.BackColor = System.Drawing.Color.Transparent;
-            this.min5.Font = new System.Drawing.Font("Dubai", 9F);
+            this.min5.Font = new System.Drawing.Font("Dubai", 10F);
             this.min5.ForeColor = System.Drawing.Color.Black;
             this.min5.Location = new System.Drawing.Point(308, 401);
             this.min5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -314,7 +315,7 @@
             // min4
             // 
             this.min4.BackColor = System.Drawing.Color.Transparent;
-            this.min4.Font = new System.Drawing.Font("Dubai", 9F);
+            this.min4.Font = new System.Drawing.Font("Dubai", 10F);
             this.min4.ForeColor = System.Drawing.Color.Black;
             this.min4.Location = new System.Drawing.Point(305, 345);
             this.min4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);

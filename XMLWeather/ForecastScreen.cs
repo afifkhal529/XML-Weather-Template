@@ -50,7 +50,7 @@ namespace XMLWeather
 
             max5.Text = Convert.ToDouble(Form1.days[5].tempHigh).ToString("#");
             min5.Text = Convert.ToDouble(Form1.days[5].tempHigh).ToString("#");
-            //max2.Text = Convert.ToDouble(Form1.days[1.temp])
+            
 
             if (outsideWeather < 300 && outsideWeather >= 200)
             {
@@ -64,16 +64,7 @@ namespace XMLWeather
             {
                 pictureBoxes[2].Image = Properties.Resources.rain;
             }
-            //else if (outsideWeather >= 600 && outsideWeather < 700)
-            //{
-            //    pictureBoxes[i].Image = Properties.Resources.snow;
-            //    BackgroundImage = Properties.Resources.snowBackground;
-            //}
-            //else if (outsideWeather >= 700 && outsideWeather < 800)
-            //{
-            //    pictureBoxes[i].Image = Properties.Resources.mist;
-            //    BackgroundImage = Properties.Resources.mistBackground;
-            //}
+            
             if (outsideWeather >= 800)
             {
                 pictureBoxes[3].Image = Properties.Resources.sunny;

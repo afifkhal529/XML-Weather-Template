@@ -42,8 +42,8 @@ namespace XMLWeather
                 reader.ReadToFollowing("time");
                 d.date = reader.GetAttribute("day");
 
-                //reader.ReadToFollowing("symbol");
-                //d.weatherOutpu = reader.GetAttribute("number");
+                reader.ReadToFollowing("symbol");
+                d.weatherNumber = reader.GetAttribute("number");
 
                 reader.ReadToFollowing("temperature");
                 d.tempLow = reader.GetAttribute("min");
@@ -75,9 +75,11 @@ namespace XMLWeather
             reader.ReadToFollowing("condition");
             days[0].condition = reader.GetAttribute("condition");
 
-            //reader.ReadToFollowing("weather");
-            //days[0].weatherNumber = reader.GetAttribute("number");
-            //days[0].weatherValue = reader.GetAttribute("value");
+            reader.ReadToFollowing("weather");
+            days[0].weatherNumber = reader.GetAttribute("number");
+            days[0].weatherValue = reader.GetAttribute("value");
+
+                        
         }
 
     }
