@@ -56,20 +56,63 @@ namespace XMLWeather
             {
                 pictureBoxes[0].Image = Properties.Resources.thunderstorm;
             }
-             if (outsideWeather >= 300 && outsideWeather < 400)
+            else if (outsideWeather >= 300 && outsideWeather < 400)
+            {
+                pictureBoxes[0].Image = Properties.Resources.shower_rain;
+            }
+            else if (outsideWeather >= 500 && outsideWeather < 600)
+            {
+                pictureBoxes[0].Image = Properties.Resources.rain;
+            }
+            else if (outsideWeather >= 800)
+            {
+                pictureBoxes[0].Image = Properties.Resources.sunny;
+            }
+            else if (outsideWeather <= 80)
+            {
+                pictureBoxes[0].Image = Properties.Resources.scattered_clouds;
+            }
+
+            if (outsideWeather >= 300 && outsideWeather < 400)
             {
                 pictureBoxes[1].Image = Properties.Resources.shower_rain;
             }
+            else if (outsideWeather < 300 && outsideWeather >= 200)
+            {
+                pictureBoxes[1].Image = Properties.Resources.thunderstorm;
+            }
+            else if (outsideWeather >= 500 && outsideWeather < 600)
+            {
+                pictureBoxes[1].Image = Properties.Resources.rain;
+            }
+            else if (outsideWeather >= 800)
+            {
+                pictureBoxes[1].Image = Properties.Resources.sunny;
+            }
+            else if (outsideWeather <= 80)
+            {
+                pictureBoxes[1].Image = Properties.Resources.scattered_clouds;
+            }
+
             if (outsideWeather >= 500 && outsideWeather < 600)
             {
                 pictureBoxes[2].Image = Properties.Resources.rain;
             }
-            
+            else if (outsideWeather < 300 && outsideWeather >= 200)
+            {
+                pictureBoxes[2].Image = Properties.Resources.thunderstorm;
+            }
+            else if (outsideWeather >= 300 && outsideWeather < 400)
+            {
+                pictureBoxes[2].Image = Properties.Resources.shower_rain;
+            }
+
+
             if (outsideWeather >= 800)
             {
                 pictureBoxes[3].Image = Properties.Resources.sunny;
             }
-            else if (outsideWeather <= 80)
+            if (outsideWeather <= 80)
             {
                 pictureBoxes[4].Image = Properties.Resources.scattered_clouds;
             }
