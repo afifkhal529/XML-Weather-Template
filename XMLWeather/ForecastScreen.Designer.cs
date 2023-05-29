@@ -61,9 +61,9 @@
             // min1
             // 
             this.min1.BackColor = System.Drawing.Color.Transparent;
-            this.min1.Font = new System.Drawing.Font("Dubai", 10F);
-            this.min1.ForeColor = System.Drawing.Color.Black;
-            this.min1.Location = new System.Drawing.Point(306, 172);
+            this.min1.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
+            this.min1.ForeColor = System.Drawing.Color.LightCyan;
+            this.min1.Location = new System.Drawing.Point(306, 177);
             this.min1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.min1.Name = "min1";
             this.min1.Size = new System.Drawing.Size(31, 26);
@@ -73,9 +73,9 @@
             // max1
             // 
             this.max1.BackColor = System.Drawing.Color.Transparent;
-            this.max1.Font = new System.Drawing.Font("Dubai", 10F);
-            this.max1.ForeColor = System.Drawing.Color.Black;
-            this.max1.Location = new System.Drawing.Point(242, 172);
+            this.max1.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
+            this.max1.ForeColor = System.Drawing.Color.LightCyan;
+            this.max1.Location = new System.Drawing.Point(242, 177);
             this.max1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.max1.Name = "max1";
             this.max1.Size = new System.Drawing.Size(32, 31);
@@ -85,33 +85,33 @@
             // day1
             // 
             this.day1.AutoSize = true;
-            this.day1.Font = new System.Drawing.Font("Dubai", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.day1.Font = new System.Drawing.Font("Rockwell", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.day1.ForeColor = System.Drawing.Color.White;
-            this.day1.Location = new System.Drawing.Point(101, 174);
+            this.day1.Location = new System.Drawing.Point(101, 179);
             this.day1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.day1.Name = "day1";
-            this.day1.Size = new System.Drawing.Size(40, 29);
+            this.day1.Size = new System.Drawing.Size(46, 22);
             this.day1.TabIndex = 64;
             this.day1.Text = "Day";
             // 
             // day2
             // 
             this.day2.AutoSize = true;
-            this.day2.Font = new System.Drawing.Font("Dubai", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.day2.Font = new System.Drawing.Font("Rockwell", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.day2.ForeColor = System.Drawing.Color.White;
-            this.day2.Location = new System.Drawing.Point(101, 230);
+            this.day2.Location = new System.Drawing.Point(101, 235);
             this.day2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.day2.Name = "day2";
-            this.day2.Size = new System.Drawing.Size(53, 29);
+            this.day2.Size = new System.Drawing.Size(61, 22);
             this.day2.TabIndex = 69;
             this.day2.Text = "Day 2";
             // 
             // min2
             // 
             this.min2.BackColor = System.Drawing.Color.Transparent;
-            this.min2.Font = new System.Drawing.Font("Dubai", 10F);
-            this.min2.ForeColor = System.Drawing.Color.Black;
-            this.min2.Location = new System.Drawing.Point(304, 230);
+            this.min2.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
+            this.min2.ForeColor = System.Drawing.Color.LightCyan;
+            this.min2.Location = new System.Drawing.Point(304, 235);
             this.min2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.min2.Name = "min2";
             this.min2.Size = new System.Drawing.Size(33, 29);
@@ -121,9 +121,9 @@
             // max2
             // 
             this.max2.BackColor = System.Drawing.Color.Transparent;
-            this.max2.Font = new System.Drawing.Font("Dubai", 10F);
-            this.max2.ForeColor = System.Drawing.Color.Black;
-            this.max2.Location = new System.Drawing.Point(243, 230);
+            this.max2.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
+            this.max2.ForeColor = System.Drawing.Color.LightCyan;
+            this.max2.Location = new System.Drawing.Point(243, 235);
             this.max2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.max2.Name = "max2";
             this.max2.Size = new System.Drawing.Size(31, 29);
@@ -133,7 +133,7 @@
             // currentForecast
             // 
             this.currentForecast.BackColor = System.Drawing.Color.Transparent;
-            this.currentForecast.Font = new System.Drawing.Font("Dubai Medium", 11F, System.Drawing.FontStyle.Bold);
+            this.currentForecast.Font = new System.Drawing.Font("Rockwell", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.currentForecast.ForeColor = System.Drawing.Color.White;
             this.currentForecast.Location = new System.Drawing.Point(317, 17);
             this.currentForecast.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -142,11 +142,12 @@
             this.currentForecast.TabIndex = 70;
             this.currentForecast.Text = "Today";
             this.currentForecast.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.currentForecast.Click += new System.EventHandler(this.currentForecast_Click_1);
             // 
             // weeklyForecast
             // 
             this.weeklyForecast.BackColor = System.Drawing.Color.Transparent;
-            this.weeklyForecast.Font = new System.Drawing.Font("Dubai Medium", 11F, System.Drawing.FontStyle.Bold);
+            this.weeklyForecast.Font = new System.Drawing.Font("Rockwell", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.weeklyForecast.ForeColor = System.Drawing.Color.White;
             this.weeklyForecast.Location = new System.Drawing.Point(317, 50);
             this.weeklyForecast.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -160,7 +161,7 @@
             // searchLabel
             // 
             this.searchLabel.BackColor = System.Drawing.Color.Transparent;
-            this.searchLabel.Font = new System.Drawing.Font("Dubai Medium", 11F, System.Drawing.FontStyle.Bold);
+            this.searchLabel.Font = new System.Drawing.Font("Rockwell", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchLabel.ForeColor = System.Drawing.Color.White;
             this.searchLabel.Location = new System.Drawing.Point(317, 85);
             this.searchLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -174,21 +175,21 @@
             // day3
             // 
             this.day3.AutoSize = true;
-            this.day3.Font = new System.Drawing.Font("Dubai", 10F);
+            this.day3.Font = new System.Drawing.Font("Rockwell", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.day3.ForeColor = System.Drawing.Color.White;
-            this.day3.Location = new System.Drawing.Point(101, 290);
+            this.day3.Location = new System.Drawing.Point(101, 295);
             this.day3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.day3.Name = "day3";
-            this.day3.Size = new System.Drawing.Size(53, 29);
+            this.day3.Size = new System.Drawing.Size(61, 22);
             this.day3.TabIndex = 73;
             this.day3.Text = "Day 3";
             // 
             // max3
             // 
             this.max3.BackColor = System.Drawing.Color.Transparent;
-            this.max3.Font = new System.Drawing.Font("Dubai", 10F);
-            this.max3.ForeColor = System.Drawing.Color.Black;
-            this.max3.Location = new System.Drawing.Point(244, 290);
+            this.max3.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
+            this.max3.ForeColor = System.Drawing.Color.LightCyan;
+            this.max3.Location = new System.Drawing.Point(244, 295);
             this.max3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.max3.Name = "max3";
             this.max3.Size = new System.Drawing.Size(30, 34);
@@ -198,8 +199,8 @@
             // min3
             // 
             this.min3.BackColor = System.Drawing.Color.Transparent;
-            this.min3.Font = new System.Drawing.Font("Dubai", 10F);
-            this.min3.ForeColor = System.Drawing.Color.Black;
+            this.min3.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
+            this.min3.ForeColor = System.Drawing.Color.LightCyan;
             this.min3.Location = new System.Drawing.Point(300, 290);
             this.min3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.min3.Name = "min3";
@@ -255,33 +256,33 @@
             // day4
             // 
             this.day4.AutoSize = true;
-            this.day4.Font = new System.Drawing.Font("Dubai", 10F);
+            this.day4.Font = new System.Drawing.Font("Rockwell", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.day4.ForeColor = System.Drawing.Color.White;
-            this.day4.Location = new System.Drawing.Point(101, 345);
+            this.day4.Location = new System.Drawing.Point(101, 350);
             this.day4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.day4.Name = "day4";
-            this.day4.Size = new System.Drawing.Size(53, 29);
+            this.day4.Size = new System.Drawing.Size(61, 22);
             this.day4.TabIndex = 83;
             this.day4.Text = "Day 4";
             // 
             // day5
             // 
             this.day5.AutoSize = true;
-            this.day5.Font = new System.Drawing.Font("Dubai", 10F);
+            this.day5.Font = new System.Drawing.Font("Rockwell", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.day5.ForeColor = System.Drawing.Color.White;
-            this.day5.Location = new System.Drawing.Point(101, 399);
+            this.day5.Location = new System.Drawing.Point(101, 404);
             this.day5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.day5.Name = "day5";
-            this.day5.Size = new System.Drawing.Size(53, 29);
+            this.day5.Size = new System.Drawing.Size(61, 22);
             this.day5.TabIndex = 84;
             this.day5.Text = "Day 5";
             // 
             // max4
             // 
             this.max4.BackColor = System.Drawing.Color.Transparent;
-            this.max4.Font = new System.Drawing.Font("Dubai", 10F);
-            this.max4.ForeColor = System.Drawing.Color.Black;
-            this.max4.Location = new System.Drawing.Point(245, 345);
+            this.max4.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
+            this.max4.ForeColor = System.Drawing.Color.LightCyan;
+            this.max4.Location = new System.Drawing.Point(245, 350);
             this.max4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.max4.Name = "max4";
             this.max4.Size = new System.Drawing.Size(29, 36);
@@ -291,9 +292,9 @@
             // max5
             // 
             this.max5.BackColor = System.Drawing.Color.Transparent;
-            this.max5.Font = new System.Drawing.Font("Dubai", 10F);
-            this.max5.ForeColor = System.Drawing.Color.Black;
-            this.max5.Location = new System.Drawing.Point(244, 401);
+            this.max5.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
+            this.max5.ForeColor = System.Drawing.Color.LightCyan;
+            this.max5.Location = new System.Drawing.Point(244, 406);
             this.max5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.max5.Name = "max5";
             this.max5.Size = new System.Drawing.Size(30, 29);
@@ -303,9 +304,9 @@
             // min5
             // 
             this.min5.BackColor = System.Drawing.Color.Transparent;
-            this.min5.Font = new System.Drawing.Font("Dubai", 10F);
-            this.min5.ForeColor = System.Drawing.Color.Black;
-            this.min5.Location = new System.Drawing.Point(308, 401);
+            this.min5.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
+            this.min5.ForeColor = System.Drawing.Color.LightCyan;
+            this.min5.Location = new System.Drawing.Point(308, 406);
             this.min5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.min5.Name = "min5";
             this.min5.Size = new System.Drawing.Size(29, 29);
@@ -315,9 +316,9 @@
             // min4
             // 
             this.min4.BackColor = System.Drawing.Color.Transparent;
-            this.min4.Font = new System.Drawing.Font("Dubai", 10F);
-            this.min4.ForeColor = System.Drawing.Color.Black;
-            this.min4.Location = new System.Drawing.Point(305, 345);
+            this.min4.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
+            this.min4.ForeColor = System.Drawing.Color.LightCyan;
+            this.min4.Location = new System.Drawing.Point(305, 350);
             this.min4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.min4.Name = "min4";
             this.min4.Size = new System.Drawing.Size(32, 36);

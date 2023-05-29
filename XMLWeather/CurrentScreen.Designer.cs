@@ -42,7 +42,7 @@
             // cityOutput
             // 
             this.cityOutput.BackColor = System.Drawing.Color.Transparent;
-            this.cityOutput.Font = new System.Drawing.Font("Dubai", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cityOutput.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cityOutput.ForeColor = System.Drawing.Color.White;
             this.cityOutput.Location = new System.Drawing.Point(28, 17);
             this.cityOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -54,35 +54,35 @@
             // maxOutput
             // 
             this.maxOutput.BackColor = System.Drawing.Color.Transparent;
-            this.maxOutput.Font = new System.Drawing.Font("Dubai", 16F);
+            this.maxOutput.Font = new System.Drawing.Font("Rockwell", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maxOutput.ForeColor = System.Drawing.Color.White;
-            this.maxOutput.Location = new System.Drawing.Point(158, 250);
+            this.maxOutput.Location = new System.Drawing.Point(148, 285);
             this.maxOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.maxOutput.Name = "maxOutput";
-            this.maxOutput.Size = new System.Drawing.Size(42, 46);
+            this.maxOutput.Size = new System.Drawing.Size(61, 56);
             this.maxOutput.TabIndex = 32;
             this.maxOutput.Text = "2";
-            this.maxOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.maxOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // minOutput
             // 
             this.minOutput.BackColor = System.Drawing.Color.Transparent;
-            this.minOutput.Font = new System.Drawing.Font("Dubai", 16F);
+            this.minOutput.Font = new System.Drawing.Font("Rockwell", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minOutput.ForeColor = System.Drawing.Color.White;
-            this.minOutput.Location = new System.Drawing.Point(210, 250);
+            this.minOutput.Location = new System.Drawing.Point(203, 282);
             this.minOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.minOutput.Name = "minOutput";
-            this.minOutput.Size = new System.Drawing.Size(49, 46);
+            this.minOutput.Size = new System.Drawing.Size(79, 62);
             this.minOutput.TabIndex = 30;
             this.minOutput.Text = "1";
-            this.minOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.minOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // weatherOutput
             // 
             this.weatherOutput.BackColor = System.Drawing.Color.Transparent;
-            this.weatherOutput.Font = new System.Drawing.Font("Dubai", 25F, System.Drawing.FontStyle.Bold);
+            this.weatherOutput.Font = new System.Drawing.Font("Rockwell", 25.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.weatherOutput.ForeColor = System.Drawing.Color.White;
-            this.weatherOutput.Location = new System.Drawing.Point(157, 186);
+            this.weatherOutput.Location = new System.Drawing.Point(165, 198);
             this.weatherOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.weatherOutput.Name = "weatherOutput";
             this.weatherOutput.Size = new System.Drawing.Size(94, 67);
@@ -93,7 +93,7 @@
             // label3
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Dubai Medium", 11F, System.Drawing.FontStyle.Bold);
+            this.label3.Font = new System.Drawing.Font("Rockwell", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(302, 11);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -106,7 +106,7 @@
             // forecastLabel
             // 
             this.forecastLabel.BackColor = System.Drawing.Color.Transparent;
-            this.forecastLabel.Font = new System.Drawing.Font("Dubai Medium", 11F, System.Drawing.FontStyle.Bold);
+            this.forecastLabel.Font = new System.Drawing.Font("Rockwell", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.forecastLabel.ForeColor = System.Drawing.Color.White;
             this.forecastLabel.Location = new System.Drawing.Point(302, 45);
             this.forecastLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -120,7 +120,7 @@
             // searchLabel
             // 
             this.searchLabel.BackColor = System.Drawing.Color.Transparent;
-            this.searchLabel.Font = new System.Drawing.Font("Dubai Medium", 11F, System.Drawing.FontStyle.Bold);
+            this.searchLabel.Font = new System.Drawing.Font("Rockwell", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchLabel.ForeColor = System.Drawing.Color.White;
             this.searchLabel.Location = new System.Drawing.Point(302, 79);
             this.searchLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -134,7 +134,7 @@
             // dateLabel
             // 
             this.dateLabel.BackColor = System.Drawing.Color.Transparent;
-            this.dateLabel.Font = new System.Drawing.Font("Dubai", 11F);
+            this.dateLabel.Font = new System.Drawing.Font("Rockwell", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateLabel.ForeColor = System.Drawing.Color.White;
             this.dateLabel.Location = new System.Drawing.Point(28, 60);
             this.dateLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -160,6 +160,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CadetBlue;
+            this.Controls.Add(this.weatherOutput);
             this.Controls.Add(this.minOutput);
             this.Controls.Add(this.maxOutput);
             this.Controls.Add(this.conditionLabel);
@@ -168,7 +169,6 @@
             this.Controls.Add(this.forecastLabel);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.cityOutput);
-            this.Controls.Add(this.weatherOutput);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CurrentScreen";
             this.Size = new System.Drawing.Size(400, 492);

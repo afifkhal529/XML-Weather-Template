@@ -106,16 +106,57 @@ namespace XMLWeather
             {
                 pictureBoxes[2].Image = Properties.Resources.shower_rain;
             }
-
+            else if (outsideWeather >= 800)
+            {
+                pictureBoxes[2].Image = Properties.Resources.sunny;
+            }
+            else if (outsideWeather <= 80)
+            {
+                pictureBoxes[2].Image= Properties.Resources.scattered_clouds;
+            }
 
             if (outsideWeather >= 800)
             {
                 pictureBoxes[3].Image = Properties.Resources.sunny;
             }
+            else if (outsideWeather >= 500 && outsideWeather <= 600)
+            {
+                pictureBoxes[3].Image= Properties.Resources.rain;
+            }
+            else if (outsideWeather < 300 && outsideWeather >= 200)
+            {
+                pictureBoxes[3].Image = Properties.Resources.thunderstorm;
+            }
+            else if (outsideWeather >= 300 && outsideWeather < 400)
+            {
+                pictureBoxes[3].Image = Properties.Resources.shower_rain;
+            }
+            else if (outsideWeather <= 80)
+            {
+                pictureBoxes[3].Image = Properties.Resources.scattered_clouds;
+            }
+
             if (outsideWeather <= 80)
             {
                 pictureBoxes[4].Image = Properties.Resources.scattered_clouds;
             }
+            else if (outsideWeather >= 800)
+            {
+                pictureBoxes[4].Image = Properties.Resources.sunny;
+            }
+            else if (outsideWeather >= 500 && outsideWeather <= 600)
+            {
+                pictureBoxes[4].Image = Properties.Resources.rain;
+            }
+            else if (outsideWeather < 300 && outsideWeather >= 200)
+            {
+                pictureBoxes[4].Image = Properties.Resources.thunderstorm;
+            }
+            else if (outsideWeather >= 300 && outsideWeather < 400)
+            {
+                pictureBoxes[4].Image = Properties.Resources.shower_rain;
+            }
+            
         }
 
         private void currentForecast_Click(object sender, EventArgs e)
@@ -143,6 +184,14 @@ namespace XMLWeather
 
             SearchScreen ss = new SearchScreen();
             f.Controls.Add(ss);
+        }
+        private void currentForecast_Click_1(object sender, EventArgs e)
+        {
+            Form f = this.FindForm();
+            f.Controls.Remove(this);
+
+            CurrentScreen cs = new CurrentScreen();
+            f.Controls.Add(cs);
         }
     }
 }

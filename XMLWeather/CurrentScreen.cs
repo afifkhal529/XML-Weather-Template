@@ -19,8 +19,8 @@ namespace XMLWeather
 
             cityOutput.Text = Form1.days[0].location;
             weatherOutput.Text = Convert.ToDouble(Form1.days[0].currentTemp).ToString("#");
-            minOutput.Text = Convert.ToDouble(Form1.days[1].tempLow).ToString("#");
-            maxOutput.Text = Convert.ToDouble(Form1.days[2].tempHigh).ToString("#");
+            minOutput.Text = Convert.ToDouble(Form1.days[0].tempLow).ToString("#");
+            maxOutput.Text = Convert.ToDouble(Form1.days[0].tempHigh).ToString("#");
             dateLabel.Text = Form1.days[0].date;
             conditionLabel.Text = Form1.days[0].condition;
             //minOutput.Text = Form1.days[1].tempLow;
