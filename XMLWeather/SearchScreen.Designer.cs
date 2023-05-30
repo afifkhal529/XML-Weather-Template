@@ -83,7 +83,7 @@
             this.inputBox.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.inputBox.Location = new System.Drawing.Point(26, 194);
             this.inputBox.Name = "inputBox";
-            this.inputBox.Size = new System.Drawing.Size(200, 31);
+            this.inputBox.Size = new System.Drawing.Size(243, 31);
             this.inputBox.TabIndex = 74;
             // 
             // errorLabel
@@ -101,7 +101,7 @@
             // searchButton
             // 
             this.searchButton.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.searchButton.Location = new System.Drawing.Point(244, 193);
+            this.searchButton.Location = new System.Drawing.Point(275, 193);
             this.searchButton.Name = "searchButton";
             this.searchButton.Size = new System.Drawing.Size(96, 34);
             this.searchButton.TabIndex = 76;
