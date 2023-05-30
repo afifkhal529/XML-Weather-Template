@@ -36,6 +36,8 @@ namespace XMLWeather
             day4.Text = Form1.days[4].date;
             day5.Text = Form1.days[5].date;
 
+            cityOutput.Text = Form1.days[0].location;
+
             max1.Text = Convert.ToDouble(Form1.days[1].tempHigh).ToString("#");
             min1.Text = Convert.ToDouble(Form1.days[1].tempLow).ToString("#");
 

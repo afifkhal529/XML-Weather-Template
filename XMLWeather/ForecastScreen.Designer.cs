@@ -51,6 +51,7 @@
             this.max5 = new System.Windows.Forms.Label();
             this.min5 = new System.Windows.Forms.Label();
             this.min4 = new System.Windows.Forms.Label();
+            this.cityOutput = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.icon1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.icon2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.icon3)).BeginInit();
@@ -325,11 +326,24 @@
             this.min4.TabIndex = 88;
             this.min4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // cityOutput
+            // 
+            this.cityOutput.BackColor = System.Drawing.Color.Transparent;
+            this.cityOutput.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cityOutput.ForeColor = System.Drawing.Color.White;
+            this.cityOutput.Location = new System.Drawing.Point(23, 17);
+            this.cityOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.cityOutput.Name = "cityOutput";
+            this.cityOutput.Size = new System.Drawing.Size(110, 28);
+            this.cityOutput.TabIndex = 89;
+            this.cityOutput.Text = "City";
+            // 
             // ForecastScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGray;
+            this.Controls.Add(this.cityOutput);
             this.Controls.Add(this.min4);
             this.Controls.Add(this.min5);
             this.Controls.Add(this.max5);
@@ -390,5 +404,6 @@
         private System.Windows.Forms.Label max5;
         private System.Windows.Forms.Label min5;
         private System.Windows.Forms.Label min4;
+        private System.Windows.Forms.Label cityOutput;
     }
 }
