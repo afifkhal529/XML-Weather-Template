@@ -34,6 +34,7 @@
             this.inputBox = new System.Windows.Forms.TextBox();
             this.errorLabel = new System.Windows.Forms.Label();
             this.searchButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // currentForecast
@@ -109,11 +110,25 @@
             this.searchButton.UseVisualStyleBackColor = true;
             this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
             // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Rockwell", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(22, 157);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(85, 34);
+            this.label1.TabIndex = 77;
+            this.label1.Text = "Search";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // SearchScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.searchButton);
             this.Controls.Add(this.errorLabel);
             this.Controls.Add(this.inputBox);
@@ -135,5 +150,6 @@
         private System.Windows.Forms.TextBox inputBox;
         private System.Windows.Forms.Label errorLabel;
         private System.Windows.Forms.Button searchButton;
+        private System.Windows.Forms.Label label1;
     }
 }

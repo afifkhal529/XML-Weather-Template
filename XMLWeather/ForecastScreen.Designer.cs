@@ -342,7 +342,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkGray;
+            this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.Controls.Add(this.cityOutput);
             this.Controls.Add(this.min4);
             this.Controls.Add(this.min5);
