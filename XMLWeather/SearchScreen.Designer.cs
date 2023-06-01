@@ -34,7 +34,7 @@
             this.inputBox = new System.Windows.Forms.TextBox();
             this.errorLabel = new System.Windows.Forms.Label();
             this.searchButton = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.intructionLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // currentForecast
@@ -82,9 +82,9 @@
             // inputBox
             // 
             this.inputBox.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.inputBox.Location = new System.Drawing.Point(26, 194);
+            this.inputBox.Location = new System.Drawing.Point(13, 194);
             this.inputBox.Name = "inputBox";
-            this.inputBox.Size = new System.Drawing.Size(243, 31);
+            this.inputBox.Size = new System.Drawing.Size(273, 31);
             this.inputBox.TabIndex = 74;
             // 
             // errorLabel
@@ -102,7 +102,7 @@
             // searchButton
             // 
             this.searchButton.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.searchButton.Location = new System.Drawing.Point(275, 193);
+            this.searchButton.Location = new System.Drawing.Point(292, 193);
             this.searchButton.Name = "searchButton";
             this.searchButton.Size = new System.Drawing.Size(96, 34);
             this.searchButton.TabIndex = 76;
@@ -110,25 +110,25 @@
             this.searchButton.UseVisualStyleBackColor = true;
             this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
             // 
-            // label1
+            // intructionLabel
             // 
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Rockwell", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(22, 157);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 34);
-            this.label1.TabIndex = 77;
-            this.label1.Text = "Search";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.intructionLabel.BackColor = System.Drawing.Color.Transparent;
+            this.intructionLabel.Font = new System.Drawing.Font("Rockwell", 11F, System.Drawing.FontStyle.Bold);
+            this.intructionLabel.ForeColor = System.Drawing.Color.White;
+            this.intructionLabel.Location = new System.Drawing.Point(10, 157);
+            this.intructionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.intructionLabel.Name = "intructionLabel";
+            this.intructionLabel.Size = new System.Drawing.Size(318, 34);
+            this.intructionLabel.TabIndex = 77;
+            this.intructionLabel.Text = "Type in any Country or City";
+            this.intructionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // SearchScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.intructionLabel);
             this.Controls.Add(this.searchButton);
             this.Controls.Add(this.errorLabel);
             this.Controls.Add(this.inputBox);
@@ -150,6 +150,6 @@
         private System.Windows.Forms.TextBox inputBox;
         private System.Windows.Forms.Label errorLabel;
         private System.Windows.Forms.Button searchButton;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label intructionLabel;
     }
 }
