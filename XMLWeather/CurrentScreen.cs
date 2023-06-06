@@ -18,11 +18,12 @@ namespace XMLWeather
             outsideWeather = Convert.ToDouble(Form1.days[0].weatherNumber);
 
             cityOutput.Text = Form1.days[0].location;
-            weatherOutput.Text = Convert.ToDouble(Form1.days[0].currentTemp).ToString("#");
-            minOutput.Text = Convert.ToDouble(Form1.days[0].tempLow).ToString("#");
-            maxOutput.Text = Convert.ToDouble(Form1.days[0].tempHigh).ToString("#");
+            tempLabel.Text = $"{Math.Round(Convert.ToDouble(Form1.days[0].currentTemp))}°";
+            minOutput.Text = $"L: {Math.Round(Convert.ToDouble(Form1.days[0].tempLow))}°";
+            maxOutput.Text = $"H: {Math.Round(Convert.ToDouble(Form1.days[0].tempHigh))}°";
             dateLabel.Text = Form1.days[0].date;
-            conditionLabel.Text = Form1.days[0].condition;
+            windLabel.Text = $" Wind: {Form1.days[0].windSpeed}m/s | {Form1.days[0].windName}";
+            humidityLabel.Text = $" Humidity: {Form1.days[0].humidity}%";
             //minOutput.Text = Form1.days[1].tempLow;
             //maxOutput.Text = Convert.ToDouble(Form1.days[1].tempHigh).ToString("#");
 

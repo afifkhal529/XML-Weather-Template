@@ -31,12 +31,13 @@
             this.cityOutput = new System.Windows.Forms.Label();
             this.maxOutput = new System.Windows.Forms.Label();
             this.minOutput = new System.Windows.Forms.Label();
-            this.weatherOutput = new System.Windows.Forms.Label();
+            this.tempLabel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.forecastLabel = new System.Windows.Forms.Label();
             this.searchLabel = new System.Windows.Forms.Label();
             this.dateLabel = new System.Windows.Forms.Label();
-            this.conditionLabel = new System.Windows.Forms.Label();
+            this.windLabel = new System.Windows.Forms.Label();
+            this.humidityLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // cityOutput
@@ -56,39 +57,39 @@
             this.maxOutput.BackColor = System.Drawing.Color.Transparent;
             this.maxOutput.Font = new System.Drawing.Font("Rockwell", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maxOutput.ForeColor = System.Drawing.Color.White;
-            this.maxOutput.Location = new System.Drawing.Point(148, 285);
+            this.maxOutput.Location = new System.Drawing.Point(96, 276);
             this.maxOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.maxOutput.Name = "maxOutput";
-            this.maxOutput.Size = new System.Drawing.Size(61, 56);
+            this.maxOutput.Size = new System.Drawing.Size(113, 56);
             this.maxOutput.TabIndex = 32;
             this.maxOutput.Text = "2";
-            this.maxOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.maxOutput.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // minOutput
             // 
             this.minOutput.BackColor = System.Drawing.Color.Transparent;
             this.minOutput.Font = new System.Drawing.Font("Rockwell", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minOutput.ForeColor = System.Drawing.Color.White;
-            this.minOutput.Location = new System.Drawing.Point(203, 282);
+            this.minOutput.Location = new System.Drawing.Point(217, 274);
             this.minOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.minOutput.Name = "minOutput";
-            this.minOutput.Size = new System.Drawing.Size(79, 62);
+            this.minOutput.Size = new System.Drawing.Size(117, 62);
             this.minOutput.TabIndex = 30;
             this.minOutput.Text = "1";
-            this.minOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.minOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // weatherOutput
+            // tempLabel
             // 
-            this.weatherOutput.BackColor = System.Drawing.Color.Transparent;
-            this.weatherOutput.Font = new System.Drawing.Font("Rockwell", 25.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.weatherOutput.ForeColor = System.Drawing.Color.White;
-            this.weatherOutput.Location = new System.Drawing.Point(165, 198);
-            this.weatherOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.weatherOutput.Name = "weatherOutput";
-            this.weatherOutput.Size = new System.Drawing.Size(94, 67);
-            this.weatherOutput.TabIndex = 28;
-            this.weatherOutput.Text = "out";
-            this.weatherOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tempLabel.BackColor = System.Drawing.Color.Transparent;
+            this.tempLabel.Font = new System.Drawing.Font("Rockwell", 25.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tempLabel.ForeColor = System.Drawing.Color.White;
+            this.tempLabel.Location = new System.Drawing.Point(165, 198);
+            this.tempLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.tempLabel.Name = "tempLabel";
+            this.tempLabel.Size = new System.Drawing.Size(94, 67);
+            this.tempLabel.TabIndex = 28;
+            this.tempLabel.Text = "out";
+            this.tempLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
@@ -143,27 +144,40 @@
             this.dateLabel.TabIndex = 44;
             this.dateLabel.Text = "Date";
             // 
-            // conditionLabel
+            // windLabel
             // 
-            this.conditionLabel.BackColor = System.Drawing.Color.Transparent;
-            this.conditionLabel.Font = new System.Drawing.Font("Dubai", 10.2F);
-            this.conditionLabel.ForeColor = System.Drawing.Color.White;
-            this.conditionLabel.Location = new System.Drawing.Point(18, 364);
-            this.conditionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.conditionLabel.Name = "conditionLabel";
-            this.conditionLabel.Size = new System.Drawing.Size(154, 70);
-            this.conditionLabel.TabIndex = 46;
-            this.conditionLabel.Text = "Conditions";
+            this.windLabel.BackColor = System.Drawing.Color.Transparent;
+            this.windLabel.Font = new System.Drawing.Font("Dubai", 10.2F);
+            this.windLabel.ForeColor = System.Drawing.Color.White;
+            this.windLabel.Location = new System.Drawing.Point(18, 364);
+            this.windLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.windLabel.Name = "windLabel";
+            this.windLabel.Size = new System.Drawing.Size(338, 41);
+            this.windLabel.TabIndex = 46;
+            this.windLabel.Text = "Wind";
+            // 
+            // humidityLabel
+            // 
+            this.humidityLabel.BackColor = System.Drawing.Color.Transparent;
+            this.humidityLabel.Font = new System.Drawing.Font("Dubai", 10.2F);
+            this.humidityLabel.ForeColor = System.Drawing.Color.White;
+            this.humidityLabel.Location = new System.Drawing.Point(18, 424);
+            this.humidityLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.humidityLabel.Name = "humidityLabel";
+            this.humidityLabel.Size = new System.Drawing.Size(338, 42);
+            this.humidityLabel.TabIndex = 47;
+            this.humidityLabel.Text = "Humidity";
             // 
             // CurrentScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CadetBlue;
-            this.Controls.Add(this.weatherOutput);
+            this.Controls.Add(this.humidityLabel);
+            this.Controls.Add(this.tempLabel);
             this.Controls.Add(this.minOutput);
             this.Controls.Add(this.maxOutput);
-            this.Controls.Add(this.conditionLabel);
+            this.Controls.Add(this.windLabel);
             this.Controls.Add(this.dateLabel);
             this.Controls.Add(this.searchLabel);
             this.Controls.Add(this.forecastLabel);
@@ -180,11 +194,12 @@
         private System.Windows.Forms.Label cityOutput;
         private System.Windows.Forms.Label maxOutput;
         private System.Windows.Forms.Label minOutput;
-        private System.Windows.Forms.Label weatherOutput;
+        private System.Windows.Forms.Label tempLabel;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label forecastLabel;
         private System.Windows.Forms.Label searchLabel;
         private System.Windows.Forms.Label dateLabel;
-        private System.Windows.Forms.Label conditionLabel;
+        private System.Windows.Forms.Label windLabel;
+        private System.Windows.Forms.Label humidityLabel;
     }
 }

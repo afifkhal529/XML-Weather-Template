@@ -30,6 +30,7 @@ namespace XMLWeather
             pictureBoxes.Add(icon4);
             pictureBoxes.Add(icon5);
 
+            //dates
             day1.Text = Form1.days[1].date;
             day2.Text = Form1.days[2].date;
             day3.Text = Form1.days[3].date;
@@ -37,6 +38,7 @@ namespace XMLWeather
             day5.Text = Form1.days[5].date;
 
             cityOutput.Text = Form1.days[0].location;
+
 
             max1.Text = Convert.ToDouble(Form1.days[1].tempHigh).ToString("#");
             min1.Text = Convert.ToDouble(Form1.days[1].tempLow).ToString("#");
