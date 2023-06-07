@@ -136,7 +136,7 @@
             this.currentForecast.BackColor = System.Drawing.Color.Transparent;
             this.currentForecast.Font = new System.Drawing.Font("Rockwell", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.currentForecast.ForeColor = System.Drawing.Color.White;
-            this.currentForecast.Location = new System.Drawing.Point(317, 17);
+            this.currentForecast.Location = new System.Drawing.Point(303, 23);
             this.currentForecast.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.currentForecast.Name = "currentForecast";
             this.currentForecast.Size = new System.Drawing.Size(77, 34);
@@ -150,7 +150,7 @@
             this.weeklyForecast.BackColor = System.Drawing.Color.Transparent;
             this.weeklyForecast.Font = new System.Drawing.Font("Rockwell", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.weeklyForecast.ForeColor = System.Drawing.Color.White;
-            this.weeklyForecast.Location = new System.Drawing.Point(317, 50);
+            this.weeklyForecast.Location = new System.Drawing.Point(303, 56);
             this.weeklyForecast.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.weeklyForecast.Name = "weeklyForecast";
             this.weeklyForecast.Size = new System.Drawing.Size(77, 34);
@@ -164,7 +164,7 @@
             this.searchLabel.BackColor = System.Drawing.Color.Transparent;
             this.searchLabel.Font = new System.Drawing.Font("Rockwell", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchLabel.ForeColor = System.Drawing.Color.White;
-            this.searchLabel.Location = new System.Drawing.Point(317, 85);
+            this.searchLabel.Location = new System.Drawing.Point(303, 91);
             this.searchLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.searchLabel.Name = "searchLabel";
             this.searchLabel.Size = new System.Drawing.Size(85, 34);
@@ -331,7 +331,7 @@
             this.cityOutput.BackColor = System.Drawing.Color.Transparent;
             this.cityOutput.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cityOutput.ForeColor = System.Drawing.Color.White;
-            this.cityOutput.Location = new System.Drawing.Point(23, 17);
+            this.cityOutput.Location = new System.Drawing.Point(23, 33);
             this.cityOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.cityOutput.Name = "cityOutput";
             this.cityOutput.Size = new System.Drawing.Size(110, 28);
