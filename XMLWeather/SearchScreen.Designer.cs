@@ -35,7 +35,6 @@
             this.errorLabel = new System.Windows.Forms.Label();
             this.searchButton = new System.Windows.Forms.Button();
             this.intructionLabel = new System.Windows.Forms.Label();
-            this.suggestLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // currentForecast
@@ -96,7 +95,7 @@
             this.errorLabel.Location = new System.Drawing.Point(12, 238);
             this.errorLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.errorLabel.Name = "errorLabel";
-            this.errorLabel.Size = new System.Drawing.Size(318, 29);
+            this.errorLabel.Size = new System.Drawing.Size(318, 193);
             this.errorLabel.TabIndex = 75;
             this.errorLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -124,24 +123,11 @@
             this.intructionLabel.Text = "Type in any Country or City";
             this.intructionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // suggestLabel
-            // 
-            this.suggestLabel.BackColor = System.Drawing.Color.Transparent;
-            this.suggestLabel.Font = new System.Drawing.Font("Rockwell", 10F, System.Drawing.FontStyle.Bold);
-            this.suggestLabel.ForeColor = System.Drawing.Color.LightCyan;
-            this.suggestLabel.Location = new System.Drawing.Point(12, 232);
-            this.suggestLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.suggestLabel.Name = "suggestLabel";
-            this.suggestLabel.Size = new System.Drawing.Size(318, 179);
-            this.suggestLabel.TabIndex = 78;
-            this.suggestLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // SearchScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
-            this.Controls.Add(this.suggestLabel);
             this.Controls.Add(this.intructionLabel);
             this.Controls.Add(this.searchButton);
             this.Controls.Add(this.errorLabel);
@@ -165,6 +151,5 @@
         private System.Windows.Forms.Label errorLabel;
         private System.Windows.Forms.Button searchButton;
         private System.Windows.Forms.Label intructionLabel;
-        private System.Windows.Forms.Label suggestLabel;
     }
 }

@@ -16,12 +16,12 @@ namespace XMLWeather
         {
             InitializeComponent();
 
-            suggestLabel.Text = $"Suggested Searches:";
-            suggestLabel.Text += "- Waterloo\n";
-            suggestLabel.Text += "- Whitby\n";
-            suggestLabel.Text += "- Vancouver\n";
-            suggestLabel.Text += "- New York\n";
-            suggestLabel.Text += "- Las Vegas\n";
+            errorLabel.Text = $"Suggested Searches:";
+            errorLabel.Text += "- Waterloo\n";
+            errorLabel.Text += "- Whitby\n";
+            errorLabel.Text += "- Vancouver\n";
+            errorLabel.Text += "- New York\n";
+            errorLabel.Text += "- Las Vegas\n";
         }
 
         private void currentForecast_Click(object sender, EventArgs e)
@@ -70,7 +70,6 @@ namespace XMLWeather
             {
                 inputBox.Text = "";
                 errorLabel.Text = "Input not valid";
-                //suggestLabel.Clear();
                 Form1.location = Form1.oldLocation;
                 Form1.ExtractForecast();
                 Form1.ExtractCurrent();
