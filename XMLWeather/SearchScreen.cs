@@ -16,6 +16,7 @@ namespace XMLWeather
         {
             InitializeComponent();
 
+            errorLabel.ForeColor = Color.CadetBlue;
             errorLabel.Text = $"Suggested Searches:";
             errorLabel.Text += "- Waterloo\n";
             errorLabel.Text += "- Whitby\n";
@@ -69,6 +70,7 @@ namespace XMLWeather
             catch
             {
                 inputBox.Text = "";
+                errorLabel.ForeColor = Color.Brown;
                 errorLabel.Text = "Input not valid";
                 Form1.location = Form1.oldLocation;
                 Form1.ExtractForecast();

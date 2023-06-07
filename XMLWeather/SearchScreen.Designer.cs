@@ -97,7 +97,6 @@
             this.errorLabel.Name = "errorLabel";
             this.errorLabel.Size = new System.Drawing.Size(318, 193);
             this.errorLabel.TabIndex = 75;
-            this.errorLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // searchButton
             // 
