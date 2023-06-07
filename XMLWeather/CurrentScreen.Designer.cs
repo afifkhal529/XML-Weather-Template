@@ -50,7 +50,7 @@
             this.cityOutput.Location = new System.Drawing.Point(28, 28);
             this.cityOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.cityOutput.Name = "cityOutput";
-            this.cityOutput.Size = new System.Drawing.Size(110, 28);
+            this.cityOutput.Size = new System.Drawing.Size(141, 28);
             this.cityOutput.TabIndex = 22;
             this.cityOutput.Text = "City";
             // 
@@ -58,7 +58,7 @@
             // 
             this.maxOutput.BackColor = System.Drawing.Color.Transparent;
             this.maxOutput.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maxOutput.ForeColor = System.Drawing.Color.White;
+            this.maxOutput.ForeColor = System.Drawing.Color.Salmon;
             this.maxOutput.Location = new System.Drawing.Point(96, 261);
             this.maxOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.maxOutput.Name = "maxOutput";
@@ -71,7 +71,7 @@
             // 
             this.minOutput.BackColor = System.Drawing.Color.Transparent;
             this.minOutput.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.minOutput.ForeColor = System.Drawing.Color.White;
+            this.minOutput.ForeColor = System.Drawing.Color.PowderBlue;
             this.minOutput.Location = new System.Drawing.Point(217, 259);
             this.minOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.minOutput.Name = "minOutput";
@@ -83,12 +83,12 @@
             // tempLabel
             // 
             this.tempLabel.BackColor = System.Drawing.Color.Transparent;
-            this.tempLabel.Font = new System.Drawing.Font("Rockwell", 26F, System.Drawing.FontStyle.Bold);
+            this.tempLabel.Font = new System.Drawing.Font("Rockwell", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tempLabel.ForeColor = System.Drawing.Color.White;
-            this.tempLabel.Location = new System.Drawing.Point(165, 198);
+            this.tempLabel.Location = new System.Drawing.Point(150, 178);
             this.tempLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.tempLabel.Name = "tempLabel";
-            this.tempLabel.Size = new System.Drawing.Size(94, 67);
+            this.tempLabel.Size = new System.Drawing.Size(123, 87);
             this.tempLabel.TabIndex = 28;
             this.tempLabel.Text = "out";
             this.tempLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
