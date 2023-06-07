@@ -72,7 +72,18 @@ namespace XMLWeather
             days[0].currentTemp = reader.GetAttribute("value");
             days[0].tempLow = reader.GetAttribute("min");
             days[0].tempHigh = reader.GetAttribute("max");
- 
+
+            reader.ReadToFollowing("humidity");
+            days[0].humidity = reader.GetAttribute("value");
+
+            reader.ReadToFollowing("speed");
+            days[0].windSpeed = reader.GetAttribute("value");
+            days[0].windName = reader.GetAttribute("name");
+
+            reader.ReadToFollowing("weather");
+            days[0].weatherNumber = reader.GetAttribute("number");
+            days[0].weatherValue = reader.GetAttribute("value");
+
         }
 
     }
